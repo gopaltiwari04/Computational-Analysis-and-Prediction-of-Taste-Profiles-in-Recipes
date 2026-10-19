@@ -1,0 +1,16 @@
+@'
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large external raw downloads (keep lexicon, ignore 40MB+ external JSON)
+data/raw/train.json
+data/raw/flavordb_molecules.json
+'@ | Set-Content -Path ".gitignore" -Encoding UTF8

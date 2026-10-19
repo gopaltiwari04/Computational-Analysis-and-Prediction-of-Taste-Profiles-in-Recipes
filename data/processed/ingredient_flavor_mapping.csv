@@ -1,0 +1,77 @@
+ingredient_norm,example_raw_surface,recipe_frequency,match_status,category,sweet,sour,bitter,salty,umami,flavordb_id,primary_flavor_compounds,annotation_source
+garlic,fresh garlic,84,matched,allium,0.15,0.05,0.1,0.0,0.35,FDB000142,allicin;diallyl disulfide,culinary_sensory+FlavorDB
+salt,kosher salt,80,matched,mineral,0.0,0.0,0.0,1.0,0.0,FDB000350,sodium chloride,culinary_sensory
+onion,onion,58,matched,allium,0.35,0.05,0.05,0.0,0.3,FDB000281,dipropyl disulfide;quercetin,culinary_sensory+FlavorDB
+ginger,fresh ginger,49,matched,spice_rhizome,0.1,0.1,0.2,0.0,0.05,FDB000155,6-gingerol;zingiberene,culinary_sensory+FlavorDB
+sugar,sugar,41,matched,sweetener,1.0,0.0,0.0,0.0,0.0,FDB000370,sucrose,culinary_sensory+SweetenersDB
+cumin,ground cumin,38,matched,spice_seed,0.05,0.05,0.45,0.0,0.1,FDB000118,cuminaldehyde;p-cymene,culinary_sensory+FlavorDB
+cilantro,cilantro,37,matched,herb,0.05,0.1,0.2,0.0,0.0,FDB000108,(E)-2-decenal;decanal,culinary_sensory+FlavorDB
+tomato,Roma tomatoes,35,matched,vegetable_fruit,0.35,0.45,0.05,0.05,0.7,FDB000398,glutamic acid;hexanal;lycopene,culinary_sensory+FlavorDB
+soy sauce,soy sauce,32,matched,fermented_condiment,0.15,0.15,0.1,0.9,0.95,FDB000365,L-glutamate;HEMF;sodium chloride,culinary_sensory+FlavorDB
+lime juice,fresh lime juice,30,matched,citrus,0.08,0.95,0.15,0.0,0.0,FDB000214,citric acid;gamma-terpinene,culinary_sensory+FlavorDB
+olive oil,extra-virgin olive oil,28,matched,fat_oil,0.05,0.02,0.35,0.0,0.0,FDB000275,oleocanthal;oleuropein;hexanal,culinary_sensory+BitterDB
+black pepper,black pepper,27,matched,spice,0.0,0.0,0.35,0.0,0.05,FDB000064,piperine;rotundone,culinary_sensory+FlavorDB
+butter,unsalted butter,27,matched,dairy,0.15,0.02,0.0,0.05,0.1,FDB000070,diacetyl;butyric acid,culinary_sensory+FlavorDB
+brown sugar,brown sugar,26,matched,sweetener,0.95,0.05,0.05,0.02,0.05,FDB000371,sucrose;molasses furans,culinary_sensory+SweetenersDB
+green chili,green chili,25,matched,chili,0.1,0.1,0.25,0.0,0.05,FDB000082,capsaicin;2-isobutyl-3-methoxypyrazine,culinary_sensory+FlavorDB
+chicken,chicken,24,matched,meat,0.05,0.0,0.0,0.15,0.65,FDB000095,inosinate;glutamate;2-methyl-3-furanthiol,culinary_sensory+FlavorDB
+green onion,green onions,24,matched,allium,0.2,0.05,0.1,0.0,0.2,FDB000285,propyl mercaptan,culinary_sensory+FlavorDB
+wheat flour,wheat flour,22,matched,grain,0.15,0.0,0.02,0.0,0.05,FDB000438,hexanal;nonanal,culinary_sensory+FlavorDB
+cayenne pepper,red chili powder,21,matched,chili,0.05,0.05,0.25,0.0,0.05,FDB000081,capsaicin;dihydrocapsaicin,culinary_sensory+FlavorDB
+rice,rice,20,matched,grain,0.25,0.0,0.0,0.0,0.05,FDB000335,2-acetyl-1-pyrroline,culinary_sensory+FlavorDB
+turmeric,ground turmeric,19,matched,spice_rhizome,0.05,0.05,0.65,0.0,0.05,FDB000412,curcumin;turmerone,culinary_sensory+FlavorDB
+fish sauce,fish sauce,18,matched,fermented_condiment,0.1,0.1,0.05,0.95,0.98,FDB000138,glutamic acid;inosine monophosphate,culinary_sensory+FlavorDB
+jalapeno,jalapeno pepper,18,matched,chili,0.15,0.1,0.2,0.0,0.05,FDB000083,capsaicin;hexanal,culinary_sensory+FlavorDB
+shiitake mushroom,shiitake mushroom,18,matched,fungi,0.1,0.05,0.05,0.05,0.95,FDB000256,5-GMP;lenthionine,culinary_sensory+FlavorDB
+sesame oil,sesame oil,17,matched,fat_oil,0.1,0.0,0.15,0.0,0.15,FDB000352,sesamol;2-acetylpyrazine,culinary_sensory+FlavorDB
+lemon juice,lemon juice,16,matched,citrus,0.1,0.95,0.1,0.0,0.0,FDB000210,citric acid;limonene;citral,culinary_sensory+FlavorDB
+parmesan cheese,parmigiano-reggiano,14,matched,dairy_aged,0.05,0.15,0.1,0.75,0.95,FDB000091,monosodium glutamate;butyric acid,culinary_sensory+FlavorDB
+rice vinegar,rice vinegar,14,matched,acid,0.2,0.75,0.0,0.05,0.1,FDB000431,acetic acid;lactic acid,culinary_sensory
+cinnamon,cinnamon,13,matched,spice_bark,0.4,0.0,0.2,0.0,0.0,FDB000098,cinnamaldehyde;eugenol,culinary_sensory+FlavorDB
+pork,pork,13,matched,meat,0.1,0.0,0.0,0.15,0.7,FDB000310,inosinate;gamma-nonalactone,culinary_sensory+FlavorDB
+coconut milk,coconut milk,12,matched,dairy_plant,0.45,0.0,0.0,0.05,0.1,FDB000102,delta-octalactone;gamma-nonalactone,culinary_sensory+FlavorDB
+milk,milk,12,matched,dairy,0.3,0.05,0.0,0.05,0.1,FDB000245,lactose;2-heptanone,culinary_sensory+FlavorDB
+miso paste,miso paste,12,matched,fermented_condiment,0.25,0.15,0.1,0.85,0.9,FDB000248,glutamate;4-ethylguaiacol,culinary_sensory+FlavorDB
+beef,beef,11,matched,meat,0.05,0.05,0.05,0.15,0.75,FDB000045,inosine monophosphate;12-methyltridecanal,culinary_sensory+FlavorDB
+oregano,oregano,11,matched,herb,0.05,0.05,0.4,0.0,0.05,FDB000286,carvacrol;thymol,culinary_sensory+FlavorDB
+cocoa powder,cocoa powder,10,matched,cocoa,0.05,0.1,0.95,0.0,0.05,FDB000100,theobromine;caffeine;diketopiperazines,culinary_sensory+BitterDB
+cheddar cheese,cheddar cheese,9,matched,dairy_aged,0.05,0.2,0.1,0.65,0.65,FDB000089,lactic acid;methional,culinary_sensory+FlavorDB
+red onion,red onion,9,matched,allium,0.3,0.1,0.1,0.0,0.2,FDB000282,anthocyanins;thiopropanal S-oxide,culinary_sensory+FlavorDB
+spinach,spinach,9,matched,leafy_green,0.15,0.05,0.35,0.1,0.2,FDB000368,oxalic acid;glutamate,culinary_sensory+FlavorDB
+vanilla,vanilla,9,matched,spice_pod,0.35,0.0,0.1,0.0,0.0,FDB000425,vanillin;p-hydroxybenzaldehyde,culinary_sensory+FlavorDB
+coriander seed,coriander seeds,8,matched,spice_seed,0.15,0.1,0.25,0.0,0.05,FDB000109,linalool;alpha-pinene,culinary_sensory+FlavorDB
+mango,mango,8,matched,fruit,0.85,0.35,0.02,0.0,0.0,FDB000230,furaneol;ethyl butanoate;myrcene,culinary_sensory+FlavorDB
+shrimp,shrimp,8,matched,seafood,0.3,0.0,0.0,0.35,0.7,FDB000355,glycine;glutamate;astaxanthin,culinary_sensory+FlavorDB
+avocado,avocado,7,matched,fruit_fat,0.15,0.02,0.1,0.02,0.2,FDB000032,(E)-2-hexenal;oleic acid,culinary_sensory+FlavorDB
+basil,fresh basil,7,matched,herb,0.2,0.0,0.25,0.0,0.05,FDB000040,estragole;linalool;eugenol,culinary_sensory+FlavorDB
+heavy cream,heavy cream,7,matched,dairy,0.25,0.05,0.0,0.05,0.1,FDB000246,delta-decalactone;diacetyl,culinary_sensory+FlavorDB
+tamarind,tamarind,7,matched,fruit_acid,0.35,0.85,0.1,0.0,0.05,FDB000385,tartaric acid;2-acetylfuran,culinary_sensory+FlavorDB
+tomato paste,tomato paste,6,matched,condiment,0.4,0.5,0.1,0.15,0.9,FDB000399,L-glutamate;furfural,culinary_sensory+FlavorDB
+apple,apple,5,matched,fruit,0.75,0.4,0.05,0.0,0.0,FDB000022,malic acid;hexyl acetate,culinary_sensory+FlavorDB
+chickpeas,chickpeas,5,matched,legume,0.2,0.02,0.1,0.05,0.25,FDB000096,hexanal;glutamate,culinary_sensory
+mint,mint,5,matched,herb,0.2,0.05,0.2,0.0,0.0,FDB000247,L-menthol;menthone,culinary_sensory+FlavorDB
+olives,olives,5,matched,pickled_fruit,0.05,0.35,0.45,0.8,0.35,FDB000274,oleuropein;lactic acid;sodium chloride,culinary_sensory+BitterDB
+oyster sauce,oyster sauce,5,matched,fermented_condiment,0.45,0.05,0.05,0.8,0.9,FDB000288,glutamate;glycine;sucrose,culinary_sensory
+salted butter,salted butter,5,matched,dairy,0.15,0.02,0.0,0.55,0.1,FDB000071,diacetyl;sodium chloride,culinary_sensory
+bell pepper,bell pepper,4,matched,vegetable,0.45,0.1,0.1,0.0,0.1,FDB000084,2-methoxy-3-isobutylpyrazine,culinary_sensory+FlavorDB
+dried ginger,dried ginger,4,matched,spice_rhizome,0.1,0.05,0.25,0.0,0.05,FDB000155_dry,shogaol;zingerone,culinary_sensory+FlavorDB
+eggplant,eggplant,4,matched,vegetable,0.15,0.05,0.45,0.0,0.2,FDB000128,solasonine;chlorogenic acid,culinary_sensory+BitterDB
+fenugreek,fenugreek,4,matched,spice_seed,0.15,0.0,0.85,0.0,0.1,FDB000136,sotolon;trigonelline,culinary_sensory+FlavorDB
+maple syrup,maple syrup,4,matched,sweetener,0.95,0.05,0.05,0.0,0.05,FDB000232,sucrose;sotolon;vanillin,culinary_sensory+SweetenersDB
+mushroom,mushroom,4,matched,fungi,0.1,0.02,0.05,0.05,0.85,FDB000255,guanylate;1-octen-3-ol,culinary_sensory+FlavorDB
+yogurt,yogurt,4,matched,dairy_fermented,0.15,0.65,0.05,0.1,0.15,FDB000445,lactic acid;acetaldehyde,culinary_sensory+FlavorDB
+anchovy,anchovy,3,matched,seafood,0.0,0.05,0.05,0.85,0.95,FDB000018,inosine-5-monophosphate;trimethylamine,culinary_sensory+FlavorDB
+black beans,black beans,3,matched,legume,0.15,0.05,0.15,0.05,0.3,FDB000055,saponins;glutamic acid,culinary_sensory
+capers,capers,3,matched,pickled_bud,0.05,0.65,0.35,0.85,0.25,FDB000074,rutin;glucocapparin;sodium chloride,culinary_sensory+FlavorDB
+coffee,coffee,3,matched,beverage_extract,0.02,0.25,0.92,0.0,0.05,FDB000105,caffeine;chlorogenic acid lactones,culinary_sensory+BitterDB
+sweet potato,sweet potato,3,matched,root_vegetable,0.75,0.02,0.05,0.02,0.05,FDB000380,maltose;beta-ionone,culinary_sensory+FlavorDB
+vinegar,vinegar,3,matched,acid,0.05,0.9,0.05,0.0,0.05,FDB000430,acetic acid;ethyl acetate,culinary_sensory+FlavorDB
+feta cheese,feta cheese,2,matched,dairy_brined,0.05,0.45,0.05,0.85,0.45,FDB000093,octanoic acid;sodium chloride,culinary_sensory+FlavorDB
+honey,honey,2,matched,sweetener,0.95,0.1,0.05,0.0,0.0,FDB000175,fructose;glucose;phenylacetic acid,culinary_sensory+SweetenersDB
+water unmatched,water_unmatched,15,unmatched,unmatched,,,,,,NONE,NONE,unmatched_logged
+baking powder unmatched,baking_powder_unmatched,7,unmatched,unmatched,,,,,,NONE,NONE,unmatched_logged
+corn tortilla unmatched,corn_tortilla_unmatched,4,unmatched,unmatched,,,,,,NONE,NONE,unmatched_logged
+garam masala unmatched,garam_masala_unmatched,4,unmatched,unmatched,,,,,,NONE,NONE,unmatched_logged
+nori unmatched,nori_unmatched,4,unmatched,unmatched,,,,,,NONE,NONE,unmatched_logged
+nutmeg unmatched,nutmeg_unmatched,4,unmatched,unmatched,,,,,,NONE,NONE,unmatched_logged
+tofu unmatched,tofu_unmatched,4,unmatched,unmatched,,,,,,NONE,NONE,unmatched_logged

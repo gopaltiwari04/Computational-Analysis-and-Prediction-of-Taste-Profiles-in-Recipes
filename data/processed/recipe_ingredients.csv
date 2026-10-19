@@ -1,0 +1,1173 @@
+recipe_id,cuisine,position_index,ingredient_raw,ingredient_norm,is_matched
+1000,Italian,0,Roma tomatoes,tomato,True
+1000,Italian,1,fresh garlic,garlic,True
+1000,Italian,2,extra-virgin olive oil,olive oil,True
+1000,Italian,3,fresh basil,basil,True
+1000,Italian,4,parmigiano-reggiano,parmesan cheese,True
+1000,Italian,5,kosher salt,salt,True
+1000,Italian,6,wheat flour,wheat flour,True
+1000,Italian,7,onion,onion,True
+1001,Italian,0,tomato paste,tomato paste,True
+1001,Italian,1,garlic cloves,garlic,True
+1001,Italian,2,yellow onion,onion,True
+1001,Italian,3,olive oil,olive oil,True
+1001,Italian,4,oregano,oregano,True
+1001,Italian,5,parmesan cheese,parmesan cheese,True
+1001,Italian,6,beef,beef,True
+1001,Italian,7,black pepper,black pepper,True
+1001,Italian,8,salt,salt,True
+1001,Italian,9,baking_powder_unmatched,baking powder unmatched,False
+1002,Italian,0,anchovy,anchovy,True
+1002,Italian,1,capers,capers,True
+1002,Italian,2,olives,olives,True
+1002,Italian,3,roma tomatoes,tomato,True
+1002,Italian,4,garlic,garlic,True
+1002,Italian,5,olive oil,olive oil,True
+1002,Italian,6,oregano,oregano,True
+1002,Italian,7,red chili powder,cayenne pepper,True
+1003,Italian,0,mushroom,mushroom,True
+1003,Italian,1,parmesan cheese,parmesan cheese,True
+1003,Italian,2,unsalted butter,butter,True
+1003,Italian,3,onion,onion,True
+1003,Italian,4,garlic,garlic,True
+1003,Italian,5,rice,rice,True
+1003,Italian,6,olive oil,olive oil,True
+1003,Italian,7,salt,salt,True
+1003,Italian,8,water_unmatched,water unmatched,False
+1004,Italian,0,feta cheese,feta cheese,True
+1004,Italian,1,olives,olives,True
+1004,Italian,2,tomato,tomato,True
+1004,Italian,3,olive oil,olive oil,True
+1004,Italian,4,oregano,oregano,True
+1004,Italian,5,lemon juice,lemon juice,True
+1004,Italian,6,garlic,garlic,True
+1005,Italian,0,heavy cream,heavy cream,True
+1005,Italian,1,butter,butter,True
+1005,Italian,2,parmesan cheese,parmesan cheese,True
+1005,Italian,3,garlic,garlic,True
+1005,Italian,4,black pepper,black pepper,True
+1005,Italian,5,salt,salt,True
+1005,Italian,6,wheat flour,wheat flour,True
+1005,Italian,7,nutmeg_unmatched,nutmeg unmatched,False
+1009,Italian,0,mushroom,mushroom,True
+1009,Italian,1,parmesan cheese,parmesan cheese,True
+1009,Italian,2,unsalted butter,butter,True
+1009,Italian,3,onion,onion,True
+1009,Italian,4,garlic,garlic,True
+1009,Italian,5,rice,rice,True
+1009,Italian,6,olive oil,olive oil,True
+1009,Italian,7,salt,salt,True
+1011,Italian,0,heavy cream,heavy cream,True
+1011,Italian,1,butter,butter,True
+1011,Italian,2,parmesan cheese,parmesan cheese,True
+1011,Italian,3,garlic,garlic,True
+1011,Italian,4,black pepper,black pepper,True
+1011,Italian,5,salt,salt,True
+1011,Italian,6,nutmeg_unmatched,nutmeg unmatched,False
+1011,Italian,7,onion,onion,True
+1012,Italian,0,fresh garlic,garlic,True
+1012,Italian,1,extra-virgin olive oil,olive oil,True
+1012,Italian,2,fresh basil,basil,True
+1012,Italian,3,parmigiano-reggiano,parmesan cheese,True
+1012,Italian,4,kosher salt,salt,True
+1012,Italian,5,wheat flour,wheat flour,True
+1013,Italian,0,tomato paste,tomato paste,True
+1013,Italian,1,garlic cloves,garlic,True
+1013,Italian,2,yellow onion,onion,True
+1013,Italian,3,olive oil,olive oil,True
+1013,Italian,4,oregano,oregano,True
+1013,Italian,5,parmesan cheese,parmesan cheese,True
+1013,Italian,6,beef,beef,True
+1013,Italian,7,black pepper,black pepper,True
+1013,Italian,8,salt,salt,True
+1014,Italian,0,anchovy,anchovy,True
+1014,Italian,1,capers,capers,True
+1014,Italian,2,olives,olives,True
+1014,Italian,3,roma tomatoes,tomato,True
+1014,Italian,4,garlic,garlic,True
+1014,Italian,5,olive oil,olive oil,True
+1014,Italian,6,oregano,oregano,True
+1015,Italian,0,mushroom,mushroom,True
+1015,Italian,1,parmesan cheese,parmesan cheese,True
+1015,Italian,2,unsalted butter,butter,True
+1015,Italian,3,garlic,garlic,True
+1015,Italian,4,rice,rice,True
+1015,Italian,5,olive oil,olive oil,True
+1015,Italian,6,salt,salt,True
+1015,Italian,7,black pepper,black pepper,True
+1018,Italian,0,Roma tomatoes,tomato,True
+1018,Italian,1,fresh garlic,garlic,True
+1018,Italian,2,extra-virgin olive oil,olive oil,True
+1018,Italian,3,fresh basil,basil,True
+1018,Italian,4,parmigiano-reggiano,parmesan cheese,True
+1018,Italian,5,wheat flour,wheat flour,True
+1019,Italian,0,tomato paste,tomato paste,True
+1019,Italian,1,garlic cloves,garlic,True
+1019,Italian,2,yellow onion,onion,True
+1019,Italian,3,olive oil,olive oil,True
+1019,Italian,4,oregano,oregano,True
+1019,Italian,5,parmesan cheese,parmesan cheese,True
+1019,Italian,6,beef,beef,True
+1019,Italian,7,black pepper,black pepper,True
+1019,Italian,8,salt,salt,True
+1019,Italian,9,water_unmatched,water unmatched,False
+1020,Italian,0,anchovy,anchovy,True
+1020,Italian,1,capers,capers,True
+1020,Italian,2,olives,olives,True
+1020,Italian,3,roma tomatoes,tomato,True
+1020,Italian,4,garlic,garlic,True
+1020,Italian,5,olive oil,olive oil,True
+1020,Italian,6,oregano,oregano,True
+1020,Italian,7,red chili powder,cayenne pepper,True
+1020,Italian,8,water_unmatched,water unmatched,False
+1021,Italian,0,mushroom,mushroom,True
+1021,Italian,1,unsalted butter,butter,True
+1021,Italian,2,onion,onion,True
+1021,Italian,3,garlic,garlic,True
+1021,Italian,4,rice,rice,True
+1021,Italian,5,olive oil,olive oil,True
+1021,Italian,6,salt,salt,True
+1023,Italian,0,heavy cream,heavy cream,True
+1023,Italian,1,butter,butter,True
+1023,Italian,2,parmesan cheese,parmesan cheese,True
+1023,Italian,3,garlic,garlic,True
+1023,Italian,4,black pepper,black pepper,True
+1023,Italian,5,salt,salt,True
+1023,Italian,6,wheat flour,wheat flour,True
+1023,Italian,7,nutmeg_unmatched,nutmeg unmatched,False
+1023,Italian,8,onion,onion,True
+1024,Italian,0,Roma tomatoes,tomato,True
+1024,Italian,1,fresh garlic,garlic,True
+1024,Italian,2,extra-virgin olive oil,olive oil,True
+1024,Italian,3,parmigiano-reggiano,parmesan cheese,True
+1024,Italian,4,kosher salt,salt,True
+1024,Italian,5,wheat flour,wheat flour,True
+1024,Italian,6,onion,onion,True
+1028,Italian,0,feta cheese,feta cheese,True
+1028,Italian,1,olives,olives,True
+1028,Italian,2,tomato,tomato,True
+1028,Italian,3,olive oil,olive oil,True
+1028,Italian,4,lemon juice,lemon juice,True
+1028,Italian,5,garlic,garlic,True
+1029,Italian,0,heavy cream,heavy cream,True
+1029,Italian,1,butter,butter,True
+1029,Italian,2,parmesan cheese,parmesan cheese,True
+1029,Italian,3,black pepper,black pepper,True
+1029,Italian,4,salt,salt,True
+1029,Italian,5,wheat flour,wheat flour,True
+1029,Italian,6,nutmeg_unmatched,nutmeg unmatched,False
+1029,Italian,7,baking_powder_unmatched,baking powder unmatched,False
+1030,Indian,0,ground turmeric,turmeric,True
+1030,Indian,1,ground cumin,cumin,True
+1030,Indian,2,coriander seeds,coriander seed,True
+1030,Indian,3,fresh ginger,ginger,True
+1030,Indian,4,garlic,garlic,True
+1030,Indian,5,onion,onion,True
+1030,Indian,6,tomato,tomato,True
+1030,Indian,7,salt,salt,True
+1030,Indian,8,water_unmatched,water unmatched,False
+1031,Indian,0,chickpeas,chickpeas,True
+1031,Indian,1,onion,onion,True
+1031,Indian,2,ginger,ginger,True
+1031,Indian,3,garlic,garlic,True
+1031,Indian,4,turmeric,turmeric,True
+1031,Indian,5,cumin,cumin,True
+1031,Indian,6,cayenne pepper,cayenne pepper,True
+1031,Indian,7,lemon juice,lemon juice,True
+1031,Indian,8,cilantro,cilantro,True
+1032,Indian,0,yogurt,yogurt,True
+1032,Indian,1,chicken,chicken,True
+1032,Indian,2,ginger,ginger,True
+1032,Indian,3,garlic,garlic,True
+1032,Indian,4,turmeric,turmeric,True
+1032,Indian,5,cumin,cumin,True
+1032,Indian,6,cayenne pepper,cayenne pepper,True
+1032,Indian,7,lemon juice,lemon juice,True
+1032,Indian,8,salt,salt,True
+1032,Indian,9,garam_masala_unmatched,garam masala unmatched,False
+1033,Indian,0,spinach,spinach,True
+1033,Indian,1,fenugreek,fenugreek,True
+1033,Indian,2,turmeric,turmeric,True
+1033,Indian,3,cumin,cumin,True
+1033,Indian,4,ginger,ginger,True
+1033,Indian,5,garlic,garlic,True
+1033,Indian,6,onion,onion,True
+1033,Indian,7,green chili,green chili,True
+1033,Indian,8,butter,butter,True
+1033,Indian,9,salt,salt,True
+1034,Indian,0,tamarind,tamarind,True
+1034,Indian,1,brown sugar,brown sugar,True
+1034,Indian,2,cumin,cumin,True
+1034,Indian,3,dried ginger,dried ginger,True
+1034,Indian,4,cayenne pepper,cayenne pepper,True
+1034,Indian,5,salt,salt,True
+1034,Indian,6,cilantro,cilantro,True
+1034,Indian,7,black pepper,black pepper,True
+1035,Indian,0,eggplant,eggplant,True
+1035,Indian,1,onion,onion,True
+1035,Indian,2,tomato,tomato,True
+1035,Indian,3,turmeric,turmeric,True
+1035,Indian,4,cumin,cumin,True
+1035,Indian,5,coriander seed,coriander seed,True
+1035,Indian,6,garlic,garlic,True
+1035,Indian,7,ginger,ginger,True
+1035,Indian,8,green chili,green chili,True
+1035,Indian,9,salt,salt,True
+1035,Indian,10,black pepper,black pepper,True
+1036,Indian,0,ground turmeric,turmeric,True
+1036,Indian,1,ground cumin,cumin,True
+1036,Indian,2,coriander seeds,coriander seed,True
+1036,Indian,3,fresh ginger,ginger,True
+1036,Indian,4,garlic,garlic,True
+1036,Indian,5,onion,onion,True
+1036,Indian,6,tomato,tomato,True
+1036,Indian,7,green chilies,green chili,True
+1037,Indian,0,chickpeas,chickpeas,True
+1037,Indian,1,onion,onion,True
+1037,Indian,2,tomato,tomato,True
+1037,Indian,3,ginger,ginger,True
+1037,Indian,4,garlic,garlic,True
+1037,Indian,5,turmeric,turmeric,True
+1037,Indian,6,cumin,cumin,True
+1037,Indian,7,cayenne pepper,cayenne pepper,True
+1037,Indian,8,lemon juice,lemon juice,True
+1037,Indian,9,cilantro,cilantro,True
+1037,Indian,10,salt,salt,True
+1038,Indian,0,yogurt,yogurt,True
+1038,Indian,1,chicken,chicken,True
+1038,Indian,2,ginger,ginger,True
+1038,Indian,3,turmeric,turmeric,True
+1038,Indian,4,cumin,cumin,True
+1038,Indian,5,cayenne pepper,cayenne pepper,True
+1038,Indian,6,lemon juice,lemon juice,True
+1038,Indian,7,salt,salt,True
+1038,Indian,8,garam_masala_unmatched,garam masala unmatched,False
+1040,Indian,0,tamarind,tamarind,True
+1040,Indian,1,brown sugar,brown sugar,True
+1040,Indian,2,cumin,cumin,True
+1040,Indian,3,dried ginger,dried ginger,True
+1040,Indian,4,cayenne pepper,cayenne pepper,True
+1040,Indian,5,salt,salt,True
+1040,Indian,6,mint,mint,True
+1040,Indian,7,cilantro,cilantro,True
+1042,Indian,0,ground turmeric,turmeric,True
+1042,Indian,1,ground cumin,cumin,True
+1042,Indian,2,coriander seeds,coriander seed,True
+1042,Indian,3,fresh ginger,ginger,True
+1042,Indian,4,garlic,garlic,True
+1042,Indian,5,onion,onion,True
+1042,Indian,6,tomato,tomato,True
+1042,Indian,7,green chilies,green chili,True
+1042,Indian,8,salt,salt,True
+1043,Indian,0,chickpeas,chickpeas,True
+1043,Indian,1,onion,onion,True
+1043,Indian,2,tomato,tomato,True
+1043,Indian,3,ginger,ginger,True
+1043,Indian,4,garlic,garlic,True
+1043,Indian,5,turmeric,turmeric,True
+1043,Indian,6,cumin,cumin,True
+1043,Indian,7,cayenne pepper,cayenne pepper,True
+1043,Indian,8,lemon juice,lemon juice,True
+1043,Indian,9,cilantro,cilantro,True
+1043,Indian,10,water_unmatched,water unmatched,False
+1044,Indian,0,yogurt,yogurt,True
+1044,Indian,1,chicken,chicken,True
+1044,Indian,2,garlic,garlic,True
+1044,Indian,3,turmeric,turmeric,True
+1044,Indian,4,cumin,cumin,True
+1044,Indian,5,cayenne pepper,cayenne pepper,True
+1044,Indian,6,lemon juice,lemon juice,True
+1044,Indian,7,salt,salt,True
+1044,Indian,8,garam_masala_unmatched,garam masala unmatched,False
+1045,Indian,0,spinach,spinach,True
+1045,Indian,1,fenugreek,fenugreek,True
+1045,Indian,2,turmeric,turmeric,True
+1045,Indian,3,cumin,cumin,True
+1045,Indian,4,ginger,ginger,True
+1045,Indian,5,garlic,garlic,True
+1045,Indian,6,onion,onion,True
+1045,Indian,7,green chili,green chili,True
+1045,Indian,8,butter,butter,True
+1045,Indian,9,salt,salt,True
+1045,Indian,10,water_unmatched,water unmatched,False
+1046,Indian,0,tamarind,tamarind,True
+1046,Indian,1,brown sugar,brown sugar,True
+1046,Indian,2,cumin,cumin,True
+1046,Indian,3,dried ginger,dried ginger,True
+1046,Indian,4,cayenne pepper,cayenne pepper,True
+1046,Indian,5,salt,salt,True
+1046,Indian,6,mint,mint,True
+1046,Indian,7,cilantro,cilantro,True
+1046,Indian,8,garlic,garlic,True
+1047,Indian,0,eggplant,eggplant,True
+1047,Indian,1,onion,onion,True
+1047,Indian,2,tomato,tomato,True
+1047,Indian,3,turmeric,turmeric,True
+1047,Indian,4,cumin,cumin,True
+1047,Indian,5,coriander seed,coriander seed,True
+1047,Indian,6,garlic,garlic,True
+1047,Indian,7,ginger,ginger,True
+1047,Indian,8,green chili,green chili,True
+1047,Indian,9,salt,salt,True
+1049,Indian,0,chickpeas,chickpeas,True
+1049,Indian,1,onion,onion,True
+1049,Indian,2,tomato,tomato,True
+1049,Indian,3,ginger,ginger,True
+1049,Indian,4,garlic,garlic,True
+1049,Indian,5,turmeric,turmeric,True
+1049,Indian,6,cumin,cumin,True
+1049,Indian,7,cayenne pepper,cayenne pepper,True
+1049,Indian,8,lemon juice,lemon juice,True
+1049,Indian,9,cilantro,cilantro,True
+1050,Indian,0,yogurt,yogurt,True
+1050,Indian,1,chicken,chicken,True
+1050,Indian,2,ginger,ginger,True
+1050,Indian,3,garlic,garlic,True
+1050,Indian,4,turmeric,turmeric,True
+1050,Indian,5,cumin,cumin,True
+1050,Indian,6,lemon juice,lemon juice,True
+1050,Indian,7,salt,salt,True
+1050,Indian,8,garam_masala_unmatched,garam masala unmatched,False
+1050,Indian,9,water_unmatched,water unmatched,False
+1051,Indian,0,spinach,spinach,True
+1051,Indian,1,fenugreek,fenugreek,True
+1051,Indian,2,turmeric,turmeric,True
+1051,Indian,3,cumin,cumin,True
+1051,Indian,4,ginger,ginger,True
+1051,Indian,5,garlic,garlic,True
+1051,Indian,6,onion,onion,True
+1051,Indian,7,green chili,green chili,True
+1051,Indian,8,butter,butter,True
+1051,Indian,9,salt,salt,True
+1051,Indian,10,black pepper,black pepper,True
+1052,Indian,0,tamarind,tamarind,True
+1052,Indian,1,brown sugar,brown sugar,True
+1052,Indian,2,cumin,cumin,True
+1052,Indian,3,dried ginger,dried ginger,True
+1052,Indian,4,cayenne pepper,cayenne pepper,True
+1052,Indian,5,mint,mint,True
+1052,Indian,6,cilantro,cilantro,True
+1053,Indian,0,eggplant,eggplant,True
+1053,Indian,1,tomato,tomato,True
+1053,Indian,2,turmeric,turmeric,True
+1053,Indian,3,cumin,cumin,True
+1053,Indian,4,coriander seed,coriander seed,True
+1053,Indian,5,garlic,garlic,True
+1053,Indian,6,ginger,ginger,True
+1053,Indian,7,green chili,green chili,True
+1053,Indian,8,salt,salt,True
+1054,Indian,0,ground turmeric,turmeric,True
+1054,Indian,1,ground cumin,cumin,True
+1054,Indian,2,coriander seeds,coriander seed,True
+1054,Indian,3,fresh ginger,ginger,True
+1054,Indian,4,garlic,garlic,True
+1054,Indian,5,onion,onion,True
+1054,Indian,6,tomato,tomato,True
+1054,Indian,7,green chilies,green chili,True
+1054,Indian,8,salt,salt,True
+1054,Indian,9,olive oil,olive oil,True
+1055,Indian,0,chickpeas,chickpeas,True
+1055,Indian,1,onion,onion,True
+1055,Indian,2,tomato,tomato,True
+1055,Indian,3,ginger,ginger,True
+1055,Indian,4,garlic,garlic,True
+1055,Indian,5,cumin,cumin,True
+1055,Indian,6,cayenne pepper,cayenne pepper,True
+1055,Indian,7,lemon juice,lemon juice,True
+1055,Indian,8,cilantro,cilantro,True
+1057,Indian,0,spinach,spinach,True
+1057,Indian,1,fenugreek,fenugreek,True
+1057,Indian,2,cumin,cumin,True
+1057,Indian,3,ginger,ginger,True
+1057,Indian,4,garlic,garlic,True
+1057,Indian,5,onion,onion,True
+1057,Indian,6,green chili,green chili,True
+1057,Indian,7,butter,butter,True
+1057,Indian,8,salt,salt,True
+1059,Indian,0,eggplant,eggplant,True
+1059,Indian,1,onion,onion,True
+1059,Indian,2,tomato,tomato,True
+1059,Indian,3,turmeric,turmeric,True
+1059,Indian,4,cumin,cumin,True
+1059,Indian,5,coriander seed,coriander seed,True
+1059,Indian,6,garlic,garlic,True
+1059,Indian,7,ginger,ginger,True
+1059,Indian,8,green chili,green chili,True
+1059,Indian,9,salt,salt,True
+1059,Indian,10,baking_powder_unmatched,baking powder unmatched,False
+1060,Mexican,0,avocado,avocado,True
+1060,Mexican,1,fresh lime juice,lime juice,True
+1060,Mexican,2,cilantro,cilantro,True
+1060,Mexican,3,red onion,red onion,True
+1060,Mexican,4,jalapeno pepper,jalapeno,True
+1060,Mexican,5,roma tomatoes,tomato,True
+1060,Mexican,6,kosher salt,salt,True
+1060,Mexican,7,garlic,garlic,True
+1061,Mexican,0,black beans,black beans,True
+1061,Mexican,1,onion,onion,True
+1061,Mexican,2,garlic,garlic,True
+1061,Mexican,3,jalapeno,jalapeno,True
+1061,Mexican,4,tomato,tomato,True
+1061,Mexican,5,lime juice,lime juice,True
+1061,Mexican,6,cilantro,cilantro,True
+1061,Mexican,7,salt,salt,True
+1062,Mexican,0,pork,pork,True
+1062,Mexican,1,lime juice,lime juice,True
+1062,Mexican,2,onion,onion,True
+1062,Mexican,3,garlic,garlic,True
+1062,Mexican,4,oregano,oregano,True
+1062,Mexican,5,cumin,cumin,True
+1062,Mexican,6,jalapeno,jalapeno,True
+1062,Mexican,7,cilantro,cilantro,True
+1062,Mexican,8,corn_tortilla_unmatched,corn tortilla unmatched,False
+1063,Mexican,0,chicken,chicken,True
+1063,Mexican,1,tomato,tomato,True
+1063,Mexican,2,jalapeno,jalapeno,True
+1063,Mexican,3,onion,onion,True
+1063,Mexican,4,garlic,garlic,True
+1063,Mexican,5,lime juice,lime juice,True
+1063,Mexican,6,cilantro,cilantro,True
+1063,Mexican,7,cheddar cheese,cheddar cheese,True
+1063,Mexican,8,olive oil,olive oil,True
+1064,Mexican,0,cocoa powder,cocoa powder,True
+1064,Mexican,1,cinnamon,cinnamon,True
+1064,Mexican,2,cayenne pepper,cayenne pepper,True
+1064,Mexican,3,tomato,tomato,True
+1064,Mexican,4,onion,onion,True
+1064,Mexican,5,garlic,garlic,True
+1064,Mexican,6,cumin,cumin,True
+1064,Mexican,7,sugar,sugar,True
+1064,Mexican,8,chicken,chicken,True
+1064,Mexican,9,salt,salt,True
+1065,Mexican,0,mango,mango,True
+1065,Mexican,1,lime juice,lime juice,True
+1065,Mexican,2,red onion,red onion,True
+1065,Mexican,3,jalapeno,jalapeno,True
+1065,Mexican,4,cilantro,cilantro,True
+1065,Mexican,5,bell pepper,bell pepper,True
+1065,Mexican,6,salt,salt,True
+1065,Mexican,7,olive oil,olive oil,True
+1066,Mexican,0,avocado,avocado,True
+1066,Mexican,1,fresh lime juice,lime juice,True
+1066,Mexican,2,cilantro,cilantro,True
+1066,Mexican,3,red onion,red onion,True
+1066,Mexican,4,jalapeno pepper,jalapeno,True
+1066,Mexican,5,roma tomatoes,tomato,True
+1066,Mexican,6,black pepper,black pepper,True
+1067,Mexican,0,black beans,black beans,True
+1067,Mexican,1,onion,onion,True
+1067,Mexican,2,garlic,garlic,True
+1067,Mexican,3,ground cumin,cumin,True
+1067,Mexican,4,jalapeno,jalapeno,True
+1067,Mexican,5,tomato,tomato,True
+1067,Mexican,6,lime juice,lime juice,True
+1067,Mexican,7,cilantro,cilantro,True
+1067,Mexican,8,salt,salt,True
+1068,Mexican,0,pork,pork,True
+1068,Mexican,1,lime juice,lime juice,True
+1068,Mexican,2,onion,onion,True
+1068,Mexican,3,garlic,garlic,True
+1068,Mexican,4,oregano,oregano,True
+1068,Mexican,5,cumin,cumin,True
+1068,Mexican,6,jalapeno,jalapeno,True
+1068,Mexican,7,cilantro,cilantro,True
+1068,Mexican,8,salt,salt,True
+1068,Mexican,9,corn_tortilla_unmatched,corn tortilla unmatched,False
+1069,Mexican,0,chicken,chicken,True
+1069,Mexican,1,tomato,tomato,True
+1069,Mexican,2,jalapeno,jalapeno,True
+1069,Mexican,3,onion,onion,True
+1069,Mexican,4,garlic,garlic,True
+1069,Mexican,5,cumin,cumin,True
+1069,Mexican,6,lime juice,lime juice,True
+1069,Mexican,7,cilantro,cilantro,True
+1069,Mexican,8,cheddar cheese,cheddar cheese,True
+1069,Mexican,9,olive oil,olive oil,True
+1070,Mexican,0,cocoa powder,cocoa powder,True
+1070,Mexican,1,cinnamon,cinnamon,True
+1070,Mexican,2,cayenne pepper,cayenne pepper,True
+1070,Mexican,3,tomato,tomato,True
+1070,Mexican,4,onion,onion,True
+1070,Mexican,5,cumin,cumin,True
+1070,Mexican,6,sugar,sugar,True
+1070,Mexican,7,chicken,chicken,True
+1070,Mexican,8,salt,salt,True
+1071,Mexican,0,mango,mango,True
+1071,Mexican,1,lime juice,lime juice,True
+1071,Mexican,2,red onion,red onion,True
+1071,Mexican,3,cilantro,cilantro,True
+1071,Mexican,4,bell pepper,bell pepper,True
+1071,Mexican,5,salt,salt,True
+1071,Mexican,6,black pepper,black pepper,True
+1072,Mexican,0,avocado,avocado,True
+1072,Mexican,1,fresh lime juice,lime juice,True
+1072,Mexican,2,cilantro,cilantro,True
+1072,Mexican,3,red onion,red onion,True
+1072,Mexican,4,jalapeno pepper,jalapeno,True
+1072,Mexican,5,roma tomatoes,tomato,True
+1072,Mexican,6,kosher salt,salt,True
+1075,Mexican,0,tomato,tomato,True
+1075,Mexican,1,jalapeno,jalapeno,True
+1075,Mexican,2,onion,onion,True
+1075,Mexican,3,garlic,garlic,True
+1075,Mexican,4,cumin,cumin,True
+1075,Mexican,5,lime juice,lime juice,True
+1075,Mexican,6,cilantro,cilantro,True
+1075,Mexican,7,cheddar cheese,cheddar cheese,True
+1076,Mexican,0,cocoa powder,cocoa powder,True
+1076,Mexican,1,cinnamon,cinnamon,True
+1076,Mexican,2,cayenne pepper,cayenne pepper,True
+1076,Mexican,3,tomato,tomato,True
+1076,Mexican,4,onion,onion,True
+1076,Mexican,5,garlic,garlic,True
+1076,Mexican,6,cumin,cumin,True
+1076,Mexican,7,sugar,sugar,True
+1076,Mexican,8,chicken,chicken,True
+1076,Mexican,9,salt,salt,True
+1076,Mexican,10,water_unmatched,water unmatched,False
+1077,Mexican,0,mango,mango,True
+1077,Mexican,1,lime juice,lime juice,True
+1077,Mexican,2,red onion,red onion,True
+1077,Mexican,3,jalapeno,jalapeno,True
+1077,Mexican,4,cilantro,cilantro,True
+1077,Mexican,5,bell pepper,bell pepper,True
+1077,Mexican,6,salt,salt,True
+1077,Mexican,7,black pepper,black pepper,True
+1079,Mexican,0,black beans,black beans,True
+1079,Mexican,1,onion,onion,True
+1079,Mexican,2,garlic,garlic,True
+1079,Mexican,3,ground cumin,cumin,True
+1079,Mexican,4,jalapeno,jalapeno,True
+1079,Mexican,5,tomato,tomato,True
+1079,Mexican,6,lime juice,lime juice,True
+1079,Mexican,7,salt,salt,True
+1080,Mexican,0,pork,pork,True
+1080,Mexican,1,lime juice,lime juice,True
+1080,Mexican,2,onion,onion,True
+1080,Mexican,3,garlic,garlic,True
+1080,Mexican,4,oregano,oregano,True
+1080,Mexican,5,cumin,cumin,True
+1080,Mexican,6,jalapeno,jalapeno,True
+1080,Mexican,7,cilantro,cilantro,True
+1080,Mexican,8,salt,salt,True
+1080,Mexican,9,corn_tortilla_unmatched,corn tortilla unmatched,False
+1080,Mexican,10,olive oil,olive oil,True
+1081,Mexican,0,chicken,chicken,True
+1081,Mexican,1,tomato,tomato,True
+1081,Mexican,2,jalapeno,jalapeno,True
+1081,Mexican,3,onion,onion,True
+1081,Mexican,4,garlic,garlic,True
+1081,Mexican,5,cumin,cumin,True
+1081,Mexican,6,lime juice,lime juice,True
+1081,Mexican,7,cilantro,cilantro,True
+1083,Mexican,0,mango,mango,True
+1083,Mexican,1,red onion,red onion,True
+1083,Mexican,2,jalapeno,jalapeno,True
+1083,Mexican,3,cilantro,cilantro,True
+1083,Mexican,4,bell pepper,bell pepper,True
+1083,Mexican,5,salt,salt,True
+1086,Mexican,0,pork,pork,True
+1086,Mexican,1,lime juice,lime juice,True
+1086,Mexican,2,onion,onion,True
+1086,Mexican,3,garlic,garlic,True
+1086,Mexican,4,oregano,oregano,True
+1086,Mexican,5,jalapeno,jalapeno,True
+1086,Mexican,6,cilantro,cilantro,True
+1086,Mexican,7,salt,salt,True
+1086,Mexican,8,corn_tortilla_unmatched,corn tortilla unmatched,False
+1087,Mexican,0,chicken,chicken,True
+1087,Mexican,1,tomato,tomato,True
+1087,Mexican,2,jalapeno,jalapeno,True
+1087,Mexican,3,onion,onion,True
+1087,Mexican,4,garlic,garlic,True
+1087,Mexican,5,cumin,cumin,True
+1087,Mexican,6,lime juice,lime juice,True
+1087,Mexican,7,cilantro,cilantro,True
+1087,Mexican,8,cheddar cheese,cheddar cheese,True
+1088,Mexican,0,cocoa powder,cocoa powder,True
+1088,Mexican,1,cinnamon,cinnamon,True
+1088,Mexican,2,cayenne pepper,cayenne pepper,True
+1088,Mexican,3,tomato,tomato,True
+1088,Mexican,4,garlic,garlic,True
+1088,Mexican,5,cumin,cumin,True
+1088,Mexican,6,sugar,sugar,True
+1088,Mexican,7,chicken,chicken,True
+1088,Mexican,8,salt,salt,True
+1090,Japanese,0,soy sauce,soy sauce,True
+1090,Japanese,1,miso paste,miso paste,True
+1090,Japanese,2,shiitake mushroom,shiitake mushroom,True
+1090,Japanese,3,green onions,green onion,True
+1090,Japanese,4,ginger,ginger,True
+1090,Japanese,5,rice vinegar,rice vinegar,True
+1090,Japanese,6,sesame oil,sesame oil,True
+1090,Japanese,7,tofu_unmatched,tofu unmatched,False
+1091,Japanese,0,soy sauce,soy sauce,True
+1091,Japanese,1,sugar,sugar,True
+1091,Japanese,2,rice vinegar,rice vinegar,True
+1091,Japanese,3,ginger,ginger,True
+1091,Japanese,4,garlic,garlic,True
+1091,Japanese,5,chicken,chicken,True
+1091,Japanese,6,sesame oil,sesame oil,True
+1091,Japanese,7,green onion,green onion,True
+1091,Japanese,8,baking_powder_unmatched,baking powder unmatched,False
+1092,Japanese,0,rice,rice,True
+1092,Japanese,1,rice vinegar,rice vinegar,True
+1092,Japanese,2,sugar,sugar,True
+1092,Japanese,3,salt,salt,True
+1092,Japanese,4,shrimp,shrimp,True
+1092,Japanese,5,avocado,avocado,True
+1092,Japanese,6,soy sauce,soy sauce,True
+1093,Japanese,0,miso paste,miso paste,True
+1093,Japanese,1,shiitake mushroom,shiitake mushroom,True
+1093,Japanese,2,green onion,green onion,True
+1093,Japanese,3,soy sauce,soy sauce,True
+1093,Japanese,4,ginger,ginger,True
+1093,Japanese,5,spinach,spinach,True
+1093,Japanese,6,water_unmatched,water unmatched,False
+1094,Japanese,0,beef,beef,True
+1094,Japanese,1,soy sauce,soy sauce,True
+1094,Japanese,2,sugar,sugar,True
+1094,Japanese,3,onion,onion,True
+1094,Japanese,4,ginger,ginger,True
+1094,Japanese,5,garlic,garlic,True
+1094,Japanese,6,sesame oil,sesame oil,True
+1094,Japanese,7,green onion,green onion,True
+1094,Japanese,8,rice,rice,True
+1095,Japanese,0,pork,pork,True
+1095,Japanese,1,miso paste,miso paste,True
+1095,Japanese,2,soy sauce,soy sauce,True
+1095,Japanese,3,ginger,ginger,True
+1095,Japanese,4,garlic,garlic,True
+1095,Japanese,5,green onion,green onion,True
+1095,Japanese,6,sesame oil,sesame oil,True
+1095,Japanese,7,shiitake mushroom,shiitake mushroom,True
+1096,Japanese,0,soy sauce,soy sauce,True
+1096,Japanese,1,miso paste,miso paste,True
+1096,Japanese,2,shiitake mushroom,shiitake mushroom,True
+1096,Japanese,3,green onions,green onion,True
+1096,Japanese,4,ginger,ginger,True
+1096,Japanese,5,rice vinegar,rice vinegar,True
+1096,Japanese,6,sesame oil,sesame oil,True
+1096,Japanese,7,tofu_unmatched,tofu unmatched,False
+1096,Japanese,8,black pepper,black pepper,True
+1097,Japanese,0,soy sauce,soy sauce,True
+1097,Japanese,1,sugar,sugar,True
+1097,Japanese,2,rice vinegar,rice vinegar,True
+1097,Japanese,3,ginger,ginger,True
+1097,Japanese,4,garlic,garlic,True
+1097,Japanese,5,chicken,chicken,True
+1097,Japanese,6,sesame oil,sesame oil,True
+1097,Japanese,7,green onion,green onion,True
+1097,Japanese,8,olive oil,olive oil,True
+1098,Japanese,0,rice,rice,True
+1098,Japanese,1,rice vinegar,rice vinegar,True
+1098,Japanese,2,sugar,sugar,True
+1098,Japanese,3,salt,salt,True
+1098,Japanese,4,shrimp,shrimp,True
+1098,Japanese,5,avocado,avocado,True
+1098,Japanese,6,soy sauce,soy sauce,True
+1098,Japanese,7,nori_unmatched,nori unmatched,False
+1099,Japanese,0,shiitake mushroom,shiitake mushroom,True
+1099,Japanese,1,green onion,green onion,True
+1099,Japanese,2,soy sauce,soy sauce,True
+1099,Japanese,3,ginger,ginger,True
+1099,Japanese,4,spinach,spinach,True
+1101,Japanese,0,pork,pork,True
+1101,Japanese,1,miso paste,miso paste,True
+1101,Japanese,2,soy sauce,soy sauce,True
+1101,Japanese,3,ginger,ginger,True
+1101,Japanese,4,garlic,garlic,True
+1101,Japanese,5,green onion,green onion,True
+1101,Japanese,6,sesame oil,sesame oil,True
+1101,Japanese,7,shiitake mushroom,shiitake mushroom,True
+1101,Japanese,8,black pepper,black pepper,True
+1103,Japanese,0,soy sauce,soy sauce,True
+1103,Japanese,1,sugar,sugar,True
+1103,Japanese,2,rice vinegar,rice vinegar,True
+1103,Japanese,3,ginger,ginger,True
+1103,Japanese,4,garlic,garlic,True
+1103,Japanese,5,chicken,chicken,True
+1103,Japanese,6,sesame oil,sesame oil,True
+1103,Japanese,7,green onion,green onion,True
+1104,Japanese,0,rice,rice,True
+1104,Japanese,1,rice vinegar,rice vinegar,True
+1104,Japanese,2,salt,salt,True
+1104,Japanese,3,shrimp,shrimp,True
+1104,Japanese,4,avocado,avocado,True
+1104,Japanese,5,soy sauce,soy sauce,True
+1104,Japanese,6,nori_unmatched,nori unmatched,False
+1105,Japanese,0,miso paste,miso paste,True
+1105,Japanese,1,shiitake mushroom,shiitake mushroom,True
+1105,Japanese,2,green onion,green onion,True
+1105,Japanese,3,soy sauce,soy sauce,True
+1105,Japanese,4,ginger,ginger,True
+1105,Japanese,5,spinach,spinach,True
+1105,Japanese,6,salt,salt,True
+1106,Japanese,0,beef,beef,True
+1106,Japanese,1,soy sauce,soy sauce,True
+1106,Japanese,2,sugar,sugar,True
+1106,Japanese,3,onion,onion,True
+1106,Japanese,4,garlic,garlic,True
+1106,Japanese,5,sesame oil,sesame oil,True
+1106,Japanese,6,green onion,green onion,True
+1106,Japanese,7,rice,rice,True
+1106,Japanese,8,olive oil,olive oil,True
+1107,Japanese,0,pork,pork,True
+1107,Japanese,1,miso paste,miso paste,True
+1107,Japanese,2,soy sauce,soy sauce,True
+1107,Japanese,3,ginger,ginger,True
+1107,Japanese,4,garlic,garlic,True
+1107,Japanese,5,green onion,green onion,True
+1107,Japanese,6,sesame oil,sesame oil,True
+1107,Japanese,7,shiitake mushroom,shiitake mushroom,True
+1107,Japanese,8,baking_powder_unmatched,baking powder unmatched,False
+1108,Japanese,0,soy sauce,soy sauce,True
+1108,Japanese,1,miso paste,miso paste,True
+1108,Japanese,2,shiitake mushroom,shiitake mushroom,True
+1108,Japanese,3,green onions,green onion,True
+1108,Japanese,4,ginger,ginger,True
+1108,Japanese,5,rice vinegar,rice vinegar,True
+1108,Japanese,6,sesame oil,sesame oil,True
+1108,Japanese,7,tofu_unmatched,tofu unmatched,False
+1108,Japanese,8,salt,salt,True
+1109,Japanese,0,soy sauce,soy sauce,True
+1109,Japanese,1,sugar,sugar,True
+1109,Japanese,2,rice vinegar,rice vinegar,True
+1109,Japanese,3,ginger,ginger,True
+1109,Japanese,4,chicken,chicken,True
+1109,Japanese,5,sesame oil,sesame oil,True
+1109,Japanese,6,green onion,green onion,True
+1109,Japanese,7,salt,salt,True
+1110,Japanese,0,rice,rice,True
+1110,Japanese,1,rice vinegar,rice vinegar,True
+1110,Japanese,2,sugar,sugar,True
+1110,Japanese,3,salt,salt,True
+1110,Japanese,4,shrimp,shrimp,True
+1110,Japanese,5,soy sauce,soy sauce,True
+1110,Japanese,6,nori_unmatched,nori unmatched,False
+1110,Japanese,7,black pepper,black pepper,True
+1111,Japanese,0,miso paste,miso paste,True
+1111,Japanese,1,shiitake mushroom,shiitake mushroom,True
+1111,Japanese,2,soy sauce,soy sauce,True
+1111,Japanese,3,ginger,ginger,True
+1111,Japanese,4,spinach,spinach,True
+1112,Japanese,0,beef,beef,True
+1112,Japanese,1,soy sauce,soy sauce,True
+1112,Japanese,2,sugar,sugar,True
+1112,Japanese,3,onion,onion,True
+1112,Japanese,4,ginger,ginger,True
+1112,Japanese,5,garlic,garlic,True
+1112,Japanese,6,sesame oil,sesame oil,True
+1112,Japanese,7,green onion,green onion,True
+1112,Japanese,8,rice,rice,True
+1112,Japanese,9,olive oil,olive oil,True
+1114,Japanese,0,soy sauce,soy sauce,True
+1114,Japanese,1,miso paste,miso paste,True
+1114,Japanese,2,shiitake mushroom,shiitake mushroom,True
+1114,Japanese,3,green onions,green onion,True
+1114,Japanese,4,ginger,ginger,True
+1114,Japanese,5,rice vinegar,rice vinegar,True
+1114,Japanese,6,sesame oil,sesame oil,True
+1114,Japanese,7,tofu_unmatched,tofu unmatched,False
+1114,Japanese,8,onion,onion,True
+1115,Japanese,0,soy sauce,soy sauce,True
+1115,Japanese,1,rice vinegar,rice vinegar,True
+1115,Japanese,2,ginger,ginger,True
+1115,Japanese,3,garlic,garlic,True
+1115,Japanese,4,chicken,chicken,True
+1115,Japanese,5,sesame oil,sesame oil,True
+1115,Japanese,6,green onion,green onion,True
+1115,Japanese,7,olive oil,olive oil,True
+1116,Japanese,0,rice,rice,True
+1116,Japanese,1,rice vinegar,rice vinegar,True
+1116,Japanese,2,sugar,sugar,True
+1116,Japanese,3,salt,salt,True
+1116,Japanese,4,shrimp,shrimp,True
+1116,Japanese,5,avocado,avocado,True
+1116,Japanese,6,soy sauce,soy sauce,True
+1116,Japanese,7,nori_unmatched,nori unmatched,False
+1116,Japanese,8,onion,onion,True
+1117,Japanese,0,miso paste,miso paste,True
+1117,Japanese,1,shiitake mushroom,shiitake mushroom,True
+1117,Japanese,2,green onion,green onion,True
+1117,Japanese,3,soy sauce,soy sauce,True
+1117,Japanese,4,ginger,ginger,True
+1117,Japanese,5,spinach,spinach,True
+1118,Japanese,0,soy sauce,soy sauce,True
+1118,Japanese,1,sugar,sugar,True
+1118,Japanese,2,onion,onion,True
+1118,Japanese,3,ginger,ginger,True
+1118,Japanese,4,garlic,garlic,True
+1118,Japanese,5,sesame oil,sesame oil,True
+1118,Japanese,6,green onion,green onion,True
+1118,Japanese,7,rice,rice,True
+1118,Japanese,8,water_unmatched,water unmatched,False
+1119,Japanese,0,pork,pork,True
+1119,Japanese,1,miso paste,miso paste,True
+1119,Japanese,2,soy sauce,soy sauce,True
+1119,Japanese,3,ginger,ginger,True
+1119,Japanese,4,garlic,garlic,True
+1119,Japanese,5,green onion,green onion,True
+1119,Japanese,6,sesame oil,sesame oil,True
+1119,Japanese,7,shiitake mushroom,shiitake mushroom,True
+1119,Japanese,8,water_unmatched,water unmatched,False
+1120,Thai,0,fish sauce,fish sauce,True
+1120,Thai,1,fresh lime juice,lime juice,True
+1120,Thai,2,coconut milk,coconut milk,True
+1120,Thai,3,brown sugar,brown sugar,True
+1120,Thai,4,green chilies,green chili,True
+1120,Thai,5,garlic,garlic,True
+1120,Thai,6,ginger,ginger,True
+1120,Thai,7,chicken,chicken,True
+1120,Thai,8,cilantro,cilantro,True
+1121,Thai,0,tamarind,tamarind,True
+1121,Thai,1,fish sauce,fish sauce,True
+1121,Thai,2,brown sugar,brown sugar,True
+1121,Thai,3,lime juice,lime juice,True
+1121,Thai,4,shrimp,shrimp,True
+1121,Thai,5,garlic,garlic,True
+1121,Thai,6,green onion,green onion,True
+1121,Thai,7,cayenne pepper,cayenne pepper,True
+1121,Thai,8,rice,rice,True
+1122,Thai,0,mango,mango,True
+1122,Thai,1,coconut milk,coconut milk,True
+1122,Thai,2,sugar,sugar,True
+1122,Thai,3,salt,salt,True
+1122,Thai,4,rice,rice,True
+1123,Thai,0,coconut milk,coconut milk,True
+1123,Thai,1,fish sauce,fish sauce,True
+1123,Thai,2,lime juice,lime juice,True
+1123,Thai,3,shiitake mushroom,shiitake mushroom,True
+1123,Thai,4,ginger,ginger,True
+1123,Thai,5,green chili,green chili,True
+1123,Thai,6,cilantro,cilantro,True
+1123,Thai,7,sugar,sugar,True
+1123,Thai,8,chicken,chicken,True
+1123,Thai,9,water_unmatched,water unmatched,False
+1124,Thai,0,beef,beef,True
+1124,Thai,1,fish sauce,fish sauce,True
+1124,Thai,2,lime juice,lime juice,True
+1124,Thai,3,red onion,red onion,True
+1124,Thai,4,mint,mint,True
+1124,Thai,5,cilantro,cilantro,True
+1124,Thai,6,green chili,green chili,True
+1124,Thai,7,brown sugar,brown sugar,True
+1125,Thai,0,oyster sauce,oyster sauce,True
+1125,Thai,1,soy sauce,soy sauce,True
+1125,Thai,2,fish sauce,fish sauce,True
+1125,Thai,3,sugar,sugar,True
+1125,Thai,4,garlic,garlic,True
+1125,Thai,5,green chili,green chili,True
+1125,Thai,6,basil,basil,True
+1125,Thai,7,pork,pork,True
+1125,Thai,8,water_unmatched,water unmatched,False
+1127,Thai,0,tamarind,tamarind,True
+1127,Thai,1,fish sauce,fish sauce,True
+1127,Thai,2,brown sugar,brown sugar,True
+1127,Thai,3,shrimp,shrimp,True
+1127,Thai,4,garlic,garlic,True
+1127,Thai,5,green onion,green onion,True
+1127,Thai,6,cayenne pepper,cayenne pepper,True
+1127,Thai,7,rice,rice,True
+1127,Thai,8,onion,onion,True
+1128,Thai,0,mango,mango,True
+1128,Thai,1,coconut milk,coconut milk,True
+1128,Thai,2,sugar,sugar,True
+1128,Thai,3,salt,salt,True
+1128,Thai,4,rice,rice,True
+1128,Thai,5,garlic,garlic,True
+1129,Thai,0,coconut milk,coconut milk,True
+1129,Thai,1,fish sauce,fish sauce,True
+1129,Thai,2,lime juice,lime juice,True
+1129,Thai,3,shiitake mushroom,shiitake mushroom,True
+1129,Thai,4,ginger,ginger,True
+1129,Thai,5,green chili,green chili,True
+1129,Thai,6,cilantro,cilantro,True
+1129,Thai,7,sugar,sugar,True
+1129,Thai,8,chicken,chicken,True
+1129,Thai,9,garlic,garlic,True
+1131,Thai,0,oyster sauce,oyster sauce,True
+1131,Thai,1,soy sauce,soy sauce,True
+1131,Thai,2,fish sauce,fish sauce,True
+1131,Thai,3,sugar,sugar,True
+1131,Thai,4,garlic,garlic,True
+1131,Thai,5,green chili,green chili,True
+1131,Thai,6,pork,pork,True
+1132,Thai,0,fish sauce,fish sauce,True
+1132,Thai,1,fresh lime juice,lime juice,True
+1132,Thai,2,coconut milk,coconut milk,True
+1132,Thai,3,brown sugar,brown sugar,True
+1132,Thai,4,green chilies,green chili,True
+1132,Thai,5,garlic,garlic,True
+1132,Thai,6,ginger,ginger,True
+1132,Thai,7,chicken,chicken,True
+1132,Thai,8,cilantro,cilantro,True
+1132,Thai,9,baking_powder_unmatched,baking powder unmatched,False
+1135,Thai,0,coconut milk,coconut milk,True
+1135,Thai,1,fish sauce,fish sauce,True
+1135,Thai,2,lime juice,lime juice,True
+1135,Thai,3,shiitake mushroom,shiitake mushroom,True
+1135,Thai,4,ginger,ginger,True
+1135,Thai,5,green chili,green chili,True
+1135,Thai,6,cilantro,cilantro,True
+1135,Thai,7,sugar,sugar,True
+1135,Thai,8,chicken,chicken,True
+1136,Thai,0,beef,beef,True
+1136,Thai,1,fish sauce,fish sauce,True
+1136,Thai,2,lime juice,lime juice,True
+1136,Thai,3,red onion,red onion,True
+1136,Thai,4,mint,mint,True
+1136,Thai,5,cilantro,cilantro,True
+1136,Thai,6,green chili,green chili,True
+1136,Thai,7,brown sugar,brown sugar,True
+1136,Thai,8,salt,salt,True
+1137,Thai,0,oyster sauce,oyster sauce,True
+1137,Thai,1,soy sauce,soy sauce,True
+1137,Thai,2,fish sauce,fish sauce,True
+1137,Thai,3,sugar,sugar,True
+1137,Thai,4,garlic,garlic,True
+1137,Thai,5,basil,basil,True
+1137,Thai,6,pork,pork,True
+1139,Thai,0,tamarind,tamarind,True
+1139,Thai,1,fish sauce,fish sauce,True
+1139,Thai,2,brown sugar,brown sugar,True
+1139,Thai,3,lime juice,lime juice,True
+1139,Thai,4,shrimp,shrimp,True
+1139,Thai,5,green onion,green onion,True
+1139,Thai,6,cayenne pepper,cayenne pepper,True
+1139,Thai,7,rice,rice,True
+1140,Thai,0,mango,mango,True
+1140,Thai,1,coconut milk,coconut milk,True
+1140,Thai,2,sugar,sugar,True
+1140,Thai,3,salt,salt,True
+1140,Thai,4,rice,rice,True
+1140,Thai,5,onion,onion,True
+1141,Thai,0,coconut milk,coconut milk,True
+1141,Thai,1,fish sauce,fish sauce,True
+1141,Thai,2,lime juice,lime juice,True
+1141,Thai,3,shiitake mushroom,shiitake mushroom,True
+1141,Thai,4,ginger,ginger,True
+1141,Thai,5,green chili,green chili,True
+1141,Thai,6,cilantro,cilantro,True
+1141,Thai,7,sugar,sugar,True
+1143,Thai,0,oyster sauce,oyster sauce,True
+1143,Thai,1,soy sauce,soy sauce,True
+1143,Thai,2,fish sauce,fish sauce,True
+1143,Thai,3,sugar,sugar,True
+1143,Thai,4,garlic,garlic,True
+1143,Thai,5,green chili,green chili,True
+1143,Thai,6,basil,basil,True
+1143,Thai,7,pork,pork,True
+1144,Thai,0,fish sauce,fish sauce,True
+1144,Thai,1,fresh lime juice,lime juice,True
+1144,Thai,2,coconut milk,coconut milk,True
+1144,Thai,3,brown sugar,brown sugar,True
+1144,Thai,4,green chilies,green chili,True
+1144,Thai,5,garlic,garlic,True
+1144,Thai,6,ginger,ginger,True
+1144,Thai,7,chicken,chicken,True
+1144,Thai,8,cilantro,cilantro,True
+1144,Thai,9,water_unmatched,water unmatched,False
+1146,Thai,0,mango,mango,True
+1146,Thai,1,coconut milk,coconut milk,True
+1146,Thai,2,sugar,sugar,True
+1146,Thai,3,salt,salt,True
+1146,Thai,4,rice,rice,True
+1146,Thai,5,black pepper,black pepper,True
+1147,Thai,0,coconut milk,coconut milk,True
+1147,Thai,1,fish sauce,fish sauce,True
+1147,Thai,2,lime juice,lime juice,True
+1147,Thai,3,shiitake mushroom,shiitake mushroom,True
+1147,Thai,4,ginger,ginger,True
+1147,Thai,5,green chili,green chili,True
+1147,Thai,6,cilantro,cilantro,True
+1147,Thai,7,sugar,sugar,True
+1147,Thai,8,chicken,chicken,True
+1147,Thai,9,onion,onion,True
+1149,Thai,0,oyster sauce,oyster sauce,True
+1149,Thai,1,soy sauce,soy sauce,True
+1149,Thai,2,fish sauce,fish sauce,True
+1149,Thai,3,sugar,sugar,True
+1149,Thai,4,garlic,garlic,True
+1149,Thai,5,green chili,green chili,True
+1149,Thai,6,basil,basil,True
+1149,Thai,7,pork,pork,True
+1149,Thai,8,salt,salt,True
+1150,American_Bakery_Comfort,0,granulated sugar,sugar,True
+1150,American_Bakery_Comfort,1,brown sugar,brown sugar,True
+1150,American_Bakery_Comfort,2,unsalted butter,butter,True
+1150,American_Bakery_Comfort,3,all-purpose flour,wheat flour,True
+1150,American_Bakery_Comfort,4,cocoa powder,cocoa powder,True
+1150,American_Bakery_Comfort,5,vanilla,vanilla,True
+1150,American_Bakery_Comfort,6,milk,milk,True
+1150,American_Bakery_Comfort,7,salt,salt,True
+1150,American_Bakery_Comfort,8,olive oil,olive oil,True
+1151,American_Bakery_Comfort,0,apple,apple,True
+1151,American_Bakery_Comfort,1,cinnamon,cinnamon,True
+1151,American_Bakery_Comfort,2,sugar,sugar,True
+1151,American_Bakery_Comfort,3,brown sugar,brown sugar,True
+1151,American_Bakery_Comfort,4,butter,butter,True
+1151,American_Bakery_Comfort,5,lemon juice,lemon juice,True
+1151,American_Bakery_Comfort,6,salt,salt,True
+1152,American_Bakery_Comfort,0,sweet potato,sweet potato,True
+1152,American_Bakery_Comfort,1,brown sugar,brown sugar,True
+1152,American_Bakery_Comfort,2,maple syrup,maple syrup,True
+1152,American_Bakery_Comfort,3,butter,butter,True
+1152,American_Bakery_Comfort,4,cinnamon,cinnamon,True
+1152,American_Bakery_Comfort,5,milk,milk,True
+1152,American_Bakery_Comfort,6,vanilla,vanilla,True
+1152,American_Bakery_Comfort,7,salt,salt,True
+1153,American_Bakery_Comfort,0,coffee,coffee,True
+1153,American_Bakery_Comfort,1,cocoa powder,cocoa powder,True
+1153,American_Bakery_Comfort,2,sugar,sugar,True
+1153,American_Bakery_Comfort,3,heavy cream,heavy cream,True
+1153,American_Bakery_Comfort,4,butter,butter,True
+1153,American_Bakery_Comfort,5,vanilla,vanilla,True
+1153,American_Bakery_Comfort,6,wheat flour,wheat flour,True
+1153,American_Bakery_Comfort,7,black pepper,black pepper,True
+1154,American_Bakery_Comfort,0,cheddar cheese,cheddar cheese,True
+1154,American_Bakery_Comfort,1,milk,milk,True
+1154,American_Bakery_Comfort,2,salted butter,salted butter,True
+1154,American_Bakery_Comfort,3,wheat flour,wheat flour,True
+1154,American_Bakery_Comfort,4,onion,onion,True
+1154,American_Bakery_Comfort,5,black pepper,black pepper,True
+1154,American_Bakery_Comfort,6,salt,salt,True
+1155,American_Bakery_Comfort,0,beef,beef,True
+1155,American_Bakery_Comfort,1,tomato paste,tomato paste,True
+1155,American_Bakery_Comfort,2,vinegar,vinegar,True
+1155,American_Bakery_Comfort,3,brown sugar,brown sugar,True
+1155,American_Bakery_Comfort,4,honey,honey,True
+1155,American_Bakery_Comfort,5,onion,onion,True
+1155,American_Bakery_Comfort,6,garlic,garlic,True
+1155,American_Bakery_Comfort,7,black pepper,black pepper,True
+1156,American_Bakery_Comfort,0,granulated sugar,sugar,True
+1156,American_Bakery_Comfort,1,brown sugar,brown sugar,True
+1156,American_Bakery_Comfort,2,unsalted butter,butter,True
+1156,American_Bakery_Comfort,3,all-purpose flour,wheat flour,True
+1156,American_Bakery_Comfort,4,cocoa powder,cocoa powder,True
+1156,American_Bakery_Comfort,5,vanilla,vanilla,True
+1156,American_Bakery_Comfort,6,milk,milk,True
+1157,American_Bakery_Comfort,0,apple,apple,True
+1157,American_Bakery_Comfort,1,cinnamon,cinnamon,True
+1157,American_Bakery_Comfort,2,sugar,sugar,True
+1157,American_Bakery_Comfort,3,brown sugar,brown sugar,True
+1157,American_Bakery_Comfort,4,butter,butter,True
+1157,American_Bakery_Comfort,5,wheat flour,wheat flour,True
+1157,American_Bakery_Comfort,6,lemon juice,lemon juice,True
+1157,American_Bakery_Comfort,7,salt,salt,True
+1159,American_Bakery_Comfort,0,coffee,coffee,True
+1159,American_Bakery_Comfort,1,cocoa powder,cocoa powder,True
+1159,American_Bakery_Comfort,2,sugar,sugar,True
+1159,American_Bakery_Comfort,3,heavy cream,heavy cream,True
+1159,American_Bakery_Comfort,4,butter,butter,True
+1159,American_Bakery_Comfort,5,vanilla,vanilla,True
+1159,American_Bakery_Comfort,6,wheat flour,wheat flour,True
+1160,American_Bakery_Comfort,0,cheddar cheese,cheddar cheese,True
+1160,American_Bakery_Comfort,1,milk,milk,True
+1160,American_Bakery_Comfort,2,salted butter,salted butter,True
+1160,American_Bakery_Comfort,3,wheat flour,wheat flour,True
+1160,American_Bakery_Comfort,4,onion,onion,True
+1160,American_Bakery_Comfort,5,black pepper,black pepper,True
+1160,American_Bakery_Comfort,6,salt,salt,True
+1160,American_Bakery_Comfort,7,olive oil,olive oil,True
+1161,American_Bakery_Comfort,0,beef,beef,True
+1161,American_Bakery_Comfort,1,tomato paste,tomato paste,True
+1161,American_Bakery_Comfort,2,vinegar,vinegar,True
+1161,American_Bakery_Comfort,3,brown sugar,brown sugar,True
+1161,American_Bakery_Comfort,4,honey,honey,True
+1161,American_Bakery_Comfort,5,onion,onion,True
+1161,American_Bakery_Comfort,6,garlic,garlic,True
+1161,American_Bakery_Comfort,7,salt,salt,True
+1161,American_Bakery_Comfort,8,black pepper,black pepper,True
+1163,American_Bakery_Comfort,0,apple,apple,True
+1163,American_Bakery_Comfort,1,cinnamon,cinnamon,True
+1163,American_Bakery_Comfort,2,sugar,sugar,True
+1163,American_Bakery_Comfort,3,brown sugar,brown sugar,True
+1163,American_Bakery_Comfort,4,butter,butter,True
+1163,American_Bakery_Comfort,5,wheat flour,wheat flour,True
+1163,American_Bakery_Comfort,6,lemon juice,lemon juice,True
+1163,American_Bakery_Comfort,7,salt,salt,True
+1163,American_Bakery_Comfort,8,onion,onion,True
+1164,American_Bakery_Comfort,0,sweet potato,sweet potato,True
+1164,American_Bakery_Comfort,1,brown sugar,brown sugar,True
+1164,American_Bakery_Comfort,2,maple syrup,maple syrup,True
+1164,American_Bakery_Comfort,3,butter,butter,True
+1164,American_Bakery_Comfort,4,cinnamon,cinnamon,True
+1164,American_Bakery_Comfort,5,milk,milk,True
+1164,American_Bakery_Comfort,6,vanilla,vanilla,True
+1164,American_Bakery_Comfort,7,salt,salt,True
+1164,American_Bakery_Comfort,8,olive oil,olive oil,True
+1166,American_Bakery_Comfort,0,cheddar cheese,cheddar cheese,True
+1166,American_Bakery_Comfort,1,milk,milk,True
+1166,American_Bakery_Comfort,2,salted butter,salted butter,True
+1166,American_Bakery_Comfort,3,wheat flour,wheat flour,True
+1166,American_Bakery_Comfort,4,onion,onion,True
+1166,American_Bakery_Comfort,5,black pepper,black pepper,True
+1167,American_Bakery_Comfort,0,beef,beef,True
+1167,American_Bakery_Comfort,1,tomato paste,tomato paste,True
+1167,American_Bakery_Comfort,2,vinegar,vinegar,True
+1167,American_Bakery_Comfort,3,brown sugar,brown sugar,True
+1167,American_Bakery_Comfort,4,onion,onion,True
+1167,American_Bakery_Comfort,5,garlic,garlic,True
+1167,American_Bakery_Comfort,6,salt,salt,True
+1167,American_Bakery_Comfort,7,black pepper,black pepper,True
+1169,American_Bakery_Comfort,0,apple,apple,True
+1169,American_Bakery_Comfort,1,cinnamon,cinnamon,True
+1169,American_Bakery_Comfort,2,sugar,sugar,True
+1169,American_Bakery_Comfort,3,brown sugar,brown sugar,True
+1169,American_Bakery_Comfort,4,butter,butter,True
+1169,American_Bakery_Comfort,5,wheat flour,wheat flour,True
+1169,American_Bakery_Comfort,6,lemon juice,lemon juice,True
+1169,American_Bakery_Comfort,7,salt,salt,True
+1169,American_Bakery_Comfort,8,water_unmatched,water unmatched,False
+1170,American_Bakery_Comfort,0,sweet potato,sweet potato,True
+1170,American_Bakery_Comfort,1,brown sugar,brown sugar,True
+1170,American_Bakery_Comfort,2,maple syrup,maple syrup,True
+1170,American_Bakery_Comfort,3,butter,butter,True
+1170,American_Bakery_Comfort,4,cinnamon,cinnamon,True
+1170,American_Bakery_Comfort,5,milk,milk,True
+1170,American_Bakery_Comfort,6,salt,salt,True
+1172,American_Bakery_Comfort,0,cheddar cheese,cheddar cheese,True
+1172,American_Bakery_Comfort,1,milk,milk,True
+1172,American_Bakery_Comfort,2,salted butter,salted butter,True
+1172,American_Bakery_Comfort,3,wheat flour,wheat flour,True
+1172,American_Bakery_Comfort,4,black pepper,black pepper,True
+1172,American_Bakery_Comfort,5,salt,salt,True
+1172,American_Bakery_Comfort,6,baking_powder_unmatched,baking powder unmatched,False
+1174,American_Bakery_Comfort,0,granulated sugar,sugar,True
+1174,American_Bakery_Comfort,1,unsalted butter,butter,True
+1174,American_Bakery_Comfort,2,all-purpose flour,wheat flour,True
+1174,American_Bakery_Comfort,3,cocoa powder,cocoa powder,True
+1174,American_Bakery_Comfort,4,vanilla,vanilla,True
+1174,American_Bakery_Comfort,5,milk,milk,True
+1174,American_Bakery_Comfort,6,salt,salt,True
+1175,American_Bakery_Comfort,0,apple,apple,True
+1175,American_Bakery_Comfort,1,cinnamon,cinnamon,True
+1175,American_Bakery_Comfort,2,sugar,sugar,True
+1175,American_Bakery_Comfort,3,brown sugar,brown sugar,True
+1175,American_Bakery_Comfort,4,butter,butter,True
+1175,American_Bakery_Comfort,5,wheat flour,wheat flour,True
+1175,American_Bakery_Comfort,6,lemon juice,lemon juice,True
+1175,American_Bakery_Comfort,7,salt,salt,True
+1175,American_Bakery_Comfort,8,black pepper,black pepper,True
+1176,American_Bakery_Comfort,0,brown sugar,brown sugar,True
+1176,American_Bakery_Comfort,1,maple syrup,maple syrup,True
+1176,American_Bakery_Comfort,2,butter,butter,True
+1176,American_Bakery_Comfort,3,cinnamon,cinnamon,True
+1176,American_Bakery_Comfort,4,milk,milk,True
+1176,American_Bakery_Comfort,5,vanilla,vanilla,True
+1176,American_Bakery_Comfort,6,salt,salt,True
+1177,American_Bakery_Comfort,0,coffee,coffee,True
+1177,American_Bakery_Comfort,1,cocoa powder,cocoa powder,True
+1177,American_Bakery_Comfort,2,sugar,sugar,True
+1177,American_Bakery_Comfort,3,heavy cream,heavy cream,True
+1177,American_Bakery_Comfort,4,butter,butter,True
+1177,American_Bakery_Comfort,5,vanilla,vanilla,True
+1177,American_Bakery_Comfort,6,wheat flour,wheat flour,True
+1177,American_Bakery_Comfort,7,garlic,garlic,True
+1178,American_Bakery_Comfort,0,cheddar cheese,cheddar cheese,True
+1178,American_Bakery_Comfort,1,milk,milk,True
+1178,American_Bakery_Comfort,2,salted butter,salted butter,True
+1178,American_Bakery_Comfort,3,wheat flour,wheat flour,True
+1178,American_Bakery_Comfort,4,onion,onion,True
+1178,American_Bakery_Comfort,5,salt,salt,True

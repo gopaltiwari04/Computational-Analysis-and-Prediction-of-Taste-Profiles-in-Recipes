@@ -1,0 +1,141 @@
+recipe_id,cuisine,n_ingredients_total,n_ingredients_matched,match_coverage_ratio,sufficient_for_analysis,ingredients_normalized
+1000,Italian,8,8,1.0,True,basil;garlic;olive oil;onion;parmesan cheese;salt;tomato;wheat flour
+1001,Italian,10,9,0.9,True,baking powder unmatched;beef;black pepper;garlic;olive oil;onion;oregano;parmesan cheese;salt;tomato paste
+1002,Italian,8,8,1.0,True,anchovy;capers;cayenne pepper;garlic;olive oil;olives;oregano;tomato
+1003,Italian,9,8,0.8889,True,butter;garlic;mushroom;olive oil;onion;parmesan cheese;rice;salt;water unmatched
+1004,Italian,7,7,1.0,True,feta cheese;garlic;lemon juice;olive oil;olives;oregano;tomato
+1005,Italian,8,7,0.875,True,black pepper;butter;garlic;heavy cream;nutmeg unmatched;parmesan cheese;salt;wheat flour
+1009,Italian,8,8,1.0,True,butter;garlic;mushroom;olive oil;onion;parmesan cheese;rice;salt
+1011,Italian,8,7,0.875,True,black pepper;butter;garlic;heavy cream;nutmeg unmatched;onion;parmesan cheese;salt
+1012,Italian,6,6,1.0,True,basil;garlic;olive oil;parmesan cheese;salt;wheat flour
+1013,Italian,9,9,1.0,True,beef;black pepper;garlic;olive oil;onion;oregano;parmesan cheese;salt;tomato paste
+1014,Italian,7,7,1.0,True,anchovy;capers;garlic;olive oil;olives;oregano;tomato
+1015,Italian,8,8,1.0,True,black pepper;butter;garlic;mushroom;olive oil;parmesan cheese;rice;salt
+1018,Italian,6,6,1.0,True,basil;garlic;olive oil;parmesan cheese;tomato;wheat flour
+1019,Italian,10,9,0.9,True,beef;black pepper;garlic;olive oil;onion;oregano;parmesan cheese;salt;tomato paste;water unmatched
+1020,Italian,9,8,0.8889,True,anchovy;capers;cayenne pepper;garlic;olive oil;olives;oregano;tomato;water unmatched
+1021,Italian,7,7,1.0,True,butter;garlic;mushroom;olive oil;onion;rice;salt
+1023,Italian,9,8,0.8889,True,black pepper;butter;garlic;heavy cream;nutmeg unmatched;onion;parmesan cheese;salt;wheat flour
+1024,Italian,7,7,1.0,True,garlic;olive oil;onion;parmesan cheese;salt;tomato;wheat flour
+1028,Italian,6,6,1.0,True,feta cheese;garlic;lemon juice;olive oil;olives;tomato
+1029,Italian,8,6,0.75,True,baking powder unmatched;black pepper;butter;heavy cream;nutmeg unmatched;parmesan cheese;salt;wheat flour
+1030,Indian,9,8,0.8889,True,coriander seed;cumin;garlic;ginger;onion;salt;tomato;turmeric;water unmatched
+1031,Indian,9,9,1.0,True,cayenne pepper;chickpeas;cilantro;cumin;garlic;ginger;lemon juice;onion;turmeric
+1032,Indian,10,9,0.9,True,cayenne pepper;chicken;cumin;garam masala unmatched;garlic;ginger;lemon juice;salt;turmeric;yogurt
+1033,Indian,10,10,1.0,True,butter;cumin;fenugreek;garlic;ginger;green chili;onion;salt;spinach;turmeric
+1034,Indian,8,8,1.0,True,black pepper;brown sugar;cayenne pepper;cilantro;cumin;dried ginger;salt;tamarind
+1035,Indian,11,11,1.0,True,black pepper;coriander seed;cumin;eggplant;garlic;ginger;green chili;onion;salt;tomato;turmeric
+1036,Indian,8,8,1.0,True,coriander seed;cumin;garlic;ginger;green chili;onion;tomato;turmeric
+1037,Indian,11,11,1.0,True,cayenne pepper;chickpeas;cilantro;cumin;garlic;ginger;lemon juice;onion;salt;tomato;turmeric
+1038,Indian,9,8,0.8889,True,cayenne pepper;chicken;cumin;garam masala unmatched;ginger;lemon juice;salt;turmeric;yogurt
+1040,Indian,8,8,1.0,True,brown sugar;cayenne pepper;cilantro;cumin;dried ginger;mint;salt;tamarind
+1042,Indian,9,9,1.0,True,coriander seed;cumin;garlic;ginger;green chili;onion;salt;tomato;turmeric
+1043,Indian,11,10,0.9091,True,cayenne pepper;chickpeas;cilantro;cumin;garlic;ginger;lemon juice;onion;tomato;turmeric;water unmatched
+1044,Indian,9,8,0.8889,True,cayenne pepper;chicken;cumin;garam masala unmatched;garlic;lemon juice;salt;turmeric;yogurt
+1045,Indian,11,10,0.9091,True,butter;cumin;fenugreek;garlic;ginger;green chili;onion;salt;spinach;turmeric;water unmatched
+1046,Indian,9,9,1.0,True,brown sugar;cayenne pepper;cilantro;cumin;dried ginger;garlic;mint;salt;tamarind
+1047,Indian,10,10,1.0,True,coriander seed;cumin;eggplant;garlic;ginger;green chili;onion;salt;tomato;turmeric
+1049,Indian,10,10,1.0,True,cayenne pepper;chickpeas;cilantro;cumin;garlic;ginger;lemon juice;onion;tomato;turmeric
+1050,Indian,10,8,0.8,True,chicken;cumin;garam masala unmatched;garlic;ginger;lemon juice;salt;turmeric;water unmatched;yogurt
+1051,Indian,11,11,1.0,True,black pepper;butter;cumin;fenugreek;garlic;ginger;green chili;onion;salt;spinach;turmeric
+1052,Indian,7,7,1.0,True,brown sugar;cayenne pepper;cilantro;cumin;dried ginger;mint;tamarind
+1053,Indian,9,9,1.0,True,coriander seed;cumin;eggplant;garlic;ginger;green chili;salt;tomato;turmeric
+1054,Indian,10,10,1.0,True,coriander seed;cumin;garlic;ginger;green chili;olive oil;onion;salt;tomato;turmeric
+1055,Indian,9,9,1.0,True,cayenne pepper;chickpeas;cilantro;cumin;garlic;ginger;lemon juice;onion;tomato
+1057,Indian,9,9,1.0,True,butter;cumin;fenugreek;garlic;ginger;green chili;onion;salt;spinach
+1059,Indian,11,10,0.9091,True,baking powder unmatched;coriander seed;cumin;eggplant;garlic;ginger;green chili;onion;salt;tomato;turmeric
+1060,Mexican,8,8,1.0,True,avocado;cilantro;garlic;jalapeno;lime juice;red onion;salt;tomato
+1061,Mexican,8,8,1.0,True,black beans;cilantro;garlic;jalapeno;lime juice;onion;salt;tomato
+1062,Mexican,9,8,0.8889,True,cilantro;corn tortilla unmatched;cumin;garlic;jalapeno;lime juice;onion;oregano;pork
+1063,Mexican,9,9,1.0,True,cheddar cheese;chicken;cilantro;garlic;jalapeno;lime juice;olive oil;onion;tomato
+1064,Mexican,10,10,1.0,True,cayenne pepper;chicken;cinnamon;cocoa powder;cumin;garlic;onion;salt;sugar;tomato
+1065,Mexican,8,8,1.0,True,bell pepper;cilantro;jalapeno;lime juice;mango;olive oil;red onion;salt
+1066,Mexican,7,7,1.0,True,avocado;black pepper;cilantro;jalapeno;lime juice;red onion;tomato
+1067,Mexican,9,9,1.0,True,black beans;cilantro;cumin;garlic;jalapeno;lime juice;onion;salt;tomato
+1068,Mexican,10,9,0.9,True,cilantro;corn tortilla unmatched;cumin;garlic;jalapeno;lime juice;onion;oregano;pork;salt
+1069,Mexican,10,10,1.0,True,cheddar cheese;chicken;cilantro;cumin;garlic;jalapeno;lime juice;olive oil;onion;tomato
+1070,Mexican,9,9,1.0,True,cayenne pepper;chicken;cinnamon;cocoa powder;cumin;onion;salt;sugar;tomato
+1071,Mexican,7,7,1.0,True,bell pepper;black pepper;cilantro;lime juice;mango;red onion;salt
+1072,Mexican,7,7,1.0,True,avocado;cilantro;jalapeno;lime juice;red onion;salt;tomato
+1075,Mexican,8,8,1.0,True,cheddar cheese;cilantro;cumin;garlic;jalapeno;lime juice;onion;tomato
+1076,Mexican,11,10,0.9091,True,cayenne pepper;chicken;cinnamon;cocoa powder;cumin;garlic;onion;salt;sugar;tomato;water unmatched
+1077,Mexican,8,8,1.0,True,bell pepper;black pepper;cilantro;jalapeno;lime juice;mango;red onion;salt
+1079,Mexican,8,8,1.0,True,black beans;cumin;garlic;jalapeno;lime juice;onion;salt;tomato
+1080,Mexican,11,10,0.9091,True,cilantro;corn tortilla unmatched;cumin;garlic;jalapeno;lime juice;olive oil;onion;oregano;pork;salt
+1081,Mexican,8,8,1.0,True,chicken;cilantro;cumin;garlic;jalapeno;lime juice;onion;tomato
+1083,Mexican,6,6,1.0,True,bell pepper;cilantro;jalapeno;mango;red onion;salt
+1086,Mexican,9,8,0.8889,True,cilantro;corn tortilla unmatched;garlic;jalapeno;lime juice;onion;oregano;pork;salt
+1087,Mexican,9,9,1.0,True,cheddar cheese;chicken;cilantro;cumin;garlic;jalapeno;lime juice;onion;tomato
+1088,Mexican,9,9,1.0,True,cayenne pepper;chicken;cinnamon;cocoa powder;cumin;garlic;salt;sugar;tomato
+1090,Japanese,8,7,0.875,True,ginger;green onion;miso paste;rice vinegar;sesame oil;shiitake mushroom;soy sauce;tofu unmatched
+1091,Japanese,9,8,0.8889,True,baking powder unmatched;chicken;garlic;ginger;green onion;rice vinegar;sesame oil;soy sauce;sugar
+1092,Japanese,7,7,1.0,True,avocado;rice;rice vinegar;salt;shrimp;soy sauce;sugar
+1093,Japanese,7,6,0.8571,True,ginger;green onion;miso paste;shiitake mushroom;soy sauce;spinach;water unmatched
+1094,Japanese,9,9,1.0,True,beef;garlic;ginger;green onion;onion;rice;sesame oil;soy sauce;sugar
+1095,Japanese,8,8,1.0,True,garlic;ginger;green onion;miso paste;pork;sesame oil;shiitake mushroom;soy sauce
+1096,Japanese,9,8,0.8889,True,black pepper;ginger;green onion;miso paste;rice vinegar;sesame oil;shiitake mushroom;soy sauce;tofu unmatched
+1097,Japanese,9,9,1.0,True,chicken;garlic;ginger;green onion;olive oil;rice vinegar;sesame oil;soy sauce;sugar
+1098,Japanese,8,7,0.875,True,avocado;nori unmatched;rice;rice vinegar;salt;shrimp;soy sauce;sugar
+1099,Japanese,5,5,1.0,True,ginger;green onion;shiitake mushroom;soy sauce;spinach
+1101,Japanese,9,9,1.0,True,black pepper;garlic;ginger;green onion;miso paste;pork;sesame oil;shiitake mushroom;soy sauce
+1103,Japanese,8,8,1.0,True,chicken;garlic;ginger;green onion;rice vinegar;sesame oil;soy sauce;sugar
+1104,Japanese,7,6,0.8571,True,avocado;nori unmatched;rice;rice vinegar;salt;shrimp;soy sauce
+1105,Japanese,7,7,1.0,True,ginger;green onion;miso paste;salt;shiitake mushroom;soy sauce;spinach
+1106,Japanese,9,9,1.0,True,beef;garlic;green onion;olive oil;onion;rice;sesame oil;soy sauce;sugar
+1107,Japanese,9,8,0.8889,True,baking powder unmatched;garlic;ginger;green onion;miso paste;pork;sesame oil;shiitake mushroom;soy sauce
+1108,Japanese,9,8,0.8889,True,ginger;green onion;miso paste;rice vinegar;salt;sesame oil;shiitake mushroom;soy sauce;tofu unmatched
+1109,Japanese,8,8,1.0,True,chicken;ginger;green onion;rice vinegar;salt;sesame oil;soy sauce;sugar
+1110,Japanese,8,7,0.875,True,black pepper;nori unmatched;rice;rice vinegar;salt;shrimp;soy sauce;sugar
+1111,Japanese,5,5,1.0,True,ginger;miso paste;shiitake mushroom;soy sauce;spinach
+1112,Japanese,10,10,1.0,True,beef;garlic;ginger;green onion;olive oil;onion;rice;sesame oil;soy sauce;sugar
+1114,Japanese,9,8,0.8889,True,ginger;green onion;miso paste;onion;rice vinegar;sesame oil;shiitake mushroom;soy sauce;tofu unmatched
+1115,Japanese,8,8,1.0,True,chicken;garlic;ginger;green onion;olive oil;rice vinegar;sesame oil;soy sauce
+1116,Japanese,9,8,0.8889,True,avocado;nori unmatched;onion;rice;rice vinegar;salt;shrimp;soy sauce;sugar
+1117,Japanese,6,6,1.0,True,ginger;green onion;miso paste;shiitake mushroom;soy sauce;spinach
+1118,Japanese,9,8,0.8889,True,garlic;ginger;green onion;onion;rice;sesame oil;soy sauce;sugar;water unmatched
+1119,Japanese,9,8,0.8889,True,garlic;ginger;green onion;miso paste;pork;sesame oil;shiitake mushroom;soy sauce;water unmatched
+1120,Thai,9,9,1.0,True,brown sugar;chicken;cilantro;coconut milk;fish sauce;garlic;ginger;green chili;lime juice
+1121,Thai,9,9,1.0,True,brown sugar;cayenne pepper;fish sauce;garlic;green onion;lime juice;rice;shrimp;tamarind
+1122,Thai,5,5,1.0,True,coconut milk;mango;rice;salt;sugar
+1123,Thai,10,9,0.9,True,chicken;cilantro;coconut milk;fish sauce;ginger;green chili;lime juice;shiitake mushroom;sugar;water unmatched
+1124,Thai,8,8,1.0,True,beef;brown sugar;cilantro;fish sauce;green chili;lime juice;mint;red onion
+1125,Thai,9,8,0.8889,True,basil;fish sauce;garlic;green chili;oyster sauce;pork;soy sauce;sugar;water unmatched
+1127,Thai,9,9,1.0,True,brown sugar;cayenne pepper;fish sauce;garlic;green onion;onion;rice;shrimp;tamarind
+1128,Thai,6,6,1.0,True,coconut milk;garlic;mango;rice;salt;sugar
+1129,Thai,10,10,1.0,True,chicken;cilantro;coconut milk;fish sauce;garlic;ginger;green chili;lime juice;shiitake mushroom;sugar
+1131,Thai,7,7,1.0,True,fish sauce;garlic;green chili;oyster sauce;pork;soy sauce;sugar
+1132,Thai,10,9,0.9,True,baking powder unmatched;brown sugar;chicken;cilantro;coconut milk;fish sauce;garlic;ginger;green chili;lime juice
+1135,Thai,9,9,1.0,True,chicken;cilantro;coconut milk;fish sauce;ginger;green chili;lime juice;shiitake mushroom;sugar
+1136,Thai,9,9,1.0,True,beef;brown sugar;cilantro;fish sauce;green chili;lime juice;mint;red onion;salt
+1137,Thai,7,7,1.0,True,basil;fish sauce;garlic;oyster sauce;pork;soy sauce;sugar
+1139,Thai,8,8,1.0,True,brown sugar;cayenne pepper;fish sauce;green onion;lime juice;rice;shrimp;tamarind
+1140,Thai,6,6,1.0,True,coconut milk;mango;onion;rice;salt;sugar
+1141,Thai,8,8,1.0,True,cilantro;coconut milk;fish sauce;ginger;green chili;lime juice;shiitake mushroom;sugar
+1143,Thai,8,8,1.0,True,basil;fish sauce;garlic;green chili;oyster sauce;pork;soy sauce;sugar
+1144,Thai,10,9,0.9,True,brown sugar;chicken;cilantro;coconut milk;fish sauce;garlic;ginger;green chili;lime juice;water unmatched
+1146,Thai,6,6,1.0,True,black pepper;coconut milk;mango;rice;salt;sugar
+1147,Thai,10,10,1.0,True,chicken;cilantro;coconut milk;fish sauce;ginger;green chili;lime juice;onion;shiitake mushroom;sugar
+1149,Thai,9,9,1.0,True,basil;fish sauce;garlic;green chili;oyster sauce;pork;salt;soy sauce;sugar
+1150,American_Bakery_Comfort,9,9,1.0,True,brown sugar;butter;cocoa powder;milk;olive oil;salt;sugar;vanilla;wheat flour
+1151,American_Bakery_Comfort,7,7,1.0,True,apple;brown sugar;butter;cinnamon;lemon juice;salt;sugar
+1152,American_Bakery_Comfort,8,8,1.0,True,brown sugar;butter;cinnamon;maple syrup;milk;salt;sweet potato;vanilla
+1153,American_Bakery_Comfort,8,8,1.0,True,black pepper;butter;cocoa powder;coffee;heavy cream;sugar;vanilla;wheat flour
+1154,American_Bakery_Comfort,7,7,1.0,True,black pepper;cheddar cheese;milk;onion;salt;salted butter;wheat flour
+1155,American_Bakery_Comfort,8,8,1.0,True,beef;black pepper;brown sugar;garlic;honey;onion;tomato paste;vinegar
+1156,American_Bakery_Comfort,7,7,1.0,True,brown sugar;butter;cocoa powder;milk;sugar;vanilla;wheat flour
+1157,American_Bakery_Comfort,8,8,1.0,True,apple;brown sugar;butter;cinnamon;lemon juice;salt;sugar;wheat flour
+1159,American_Bakery_Comfort,7,7,1.0,True,butter;cocoa powder;coffee;heavy cream;sugar;vanilla;wheat flour
+1160,American_Bakery_Comfort,8,8,1.0,True,black pepper;cheddar cheese;milk;olive oil;onion;salt;salted butter;wheat flour
+1161,American_Bakery_Comfort,9,9,1.0,True,beef;black pepper;brown sugar;garlic;honey;onion;salt;tomato paste;vinegar
+1163,American_Bakery_Comfort,9,9,1.0,True,apple;brown sugar;butter;cinnamon;lemon juice;onion;salt;sugar;wheat flour
+1164,American_Bakery_Comfort,9,9,1.0,True,brown sugar;butter;cinnamon;maple syrup;milk;olive oil;salt;sweet potato;vanilla
+1166,American_Bakery_Comfort,6,6,1.0,True,black pepper;cheddar cheese;milk;onion;salted butter;wheat flour
+1167,American_Bakery_Comfort,8,8,1.0,True,beef;black pepper;brown sugar;garlic;onion;salt;tomato paste;vinegar
+1169,American_Bakery_Comfort,9,8,0.8889,True,apple;brown sugar;butter;cinnamon;lemon juice;salt;sugar;water unmatched;wheat flour
+1170,American_Bakery_Comfort,7,7,1.0,True,brown sugar;butter;cinnamon;maple syrup;milk;salt;sweet potato
+1172,American_Bakery_Comfort,7,6,0.8571,True,baking powder unmatched;black pepper;cheddar cheese;milk;salt;salted butter;wheat flour
+1174,American_Bakery_Comfort,7,7,1.0,True,butter;cocoa powder;milk;salt;sugar;vanilla;wheat flour
+1175,American_Bakery_Comfort,9,9,1.0,True,apple;black pepper;brown sugar;butter;cinnamon;lemon juice;salt;sugar;wheat flour
+1176,American_Bakery_Comfort,7,7,1.0,True,brown sugar;butter;cinnamon;maple syrup;milk;salt;vanilla
+1177,American_Bakery_Comfort,8,8,1.0,True,butter;cocoa powder;coffee;garlic;heavy cream;sugar;vanilla;wheat flour
+1178,American_Bakery_Comfort,6,6,1.0,True,cheddar cheese;milk;onion;salt;salted butter;wheat flour
