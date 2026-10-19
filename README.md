@@ -1,4 +1,3 @@
-```markdown
 # Computational Analysis and Prediction of Taste Profiles in Recipes
 
 A reproducible **Computational Gastronomy** research pipeline that links culinary recipe ingredient lists to standardized 5-dimensional gustatory taste profiles (`sweet`, `sour`, `bitter`, `salty`, `umami`), conducts non-parametric cross-cuisine statistical comparisons, and evaluates lightweight machine learning models for recipe taste prediction.
@@ -10,6 +9,7 @@ A reproducible **Computational Gastronomy** research pipeline that links culinar
 Public recipe repositories catalog thousands of dishes as unstructured ingredient lists, while molecular databases such as **FlavorDB** (Garg et al., 2018) catalog volatile aroma molecules. A frequent pitfall in computational food analysis is conflating **olfactory flavor molecules** (volatile compounds driving aroma) with **gustatory taste modalities** (`sweet`, `sour`, `bitter`, `salty`, `umami`, mediated by non-volatile tastants binding to lingual receptors).
 
 This project implements a transparent, four-deliverable framework that:
+
 1. **Separates volatile flavor compound metadata from gustatory taste profiles** and logs unmatched ingredients explicitly rather than silently dropping them.
 2. **Formulates a mathematical recipe-level taste representation** on the 5-taste L1 simplex alongside Shannon entropy ($H$) and Pielou taste balance ($J$).
 3. **Evaluates cross-cuisine differences** using omnibus Kruskal–Wallis $H$-tests with Holm–Bonferroni multiple-testing correction and standardized $z$-score distinctiveness lifts.
@@ -19,7 +19,6 @@ This project implements a transparent, four-deliverable framework that:
 
 ## 2. Repository Structure
 
-```text
 computational-gastronomy/
 ├── README.md
 ├── requirements.txt
@@ -40,7 +39,7 @@ computational-gastronomy/
 │   ├── 03_cross_cuisine_analysis.ipynb
 │   └── 04_taste_prediction.ipynb
 ├── src/
-│   ├── __init__.py
+│   ├── **init**.py
 │   ├── config.py
 │   ├── data_preprocessing.py                 # Deliverable 1 implementation
 │   ├── taste_profile.py                      # Deliverable 2 implementation
@@ -69,10 +68,8 @@ computational-gastronomy/
 │   ├── prediction_evaluation.md
 │   └── limitations.md
 └── docs/
-    ├── project_proposal.md
-    └── final_report.md
-
-```
+├── project_proposal.md
+└── final_report.md
 
 ---
 
@@ -134,32 +131,19 @@ computational-gastronomy/
 
 ### Step-by-Step Commands (Windows PowerShell)
 
-```powershell
-# 1. (Optional) Create and activate a virtual environment
 python -m venv .venv
 .venv\Scripts\Activate.ps1
-
-# 2. Install required dependencies
 pip install -r requirements.txt
-
-# 3. Run unit tests (verifies string normalization, alias preservation, and Shannon entropy math)
 python -m pytest tests/test_preprocessing.py -v
-
-# 4. Run the complete 4-deliverable pipeline
 python run_pipeline.py --use-sample-data
-
-```
 
 ### Step-by-Step Commands (Linux / macOS)
 
-```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python -m pytest tests/test_preprocessing.py -v
 python run_pipeline.py --use-sample-data
-
-```
 
 > **Using External Kaggle Data (`train.json`):** If you place the Kaggle/Yummly *What's Cooking* `train.json` file inside `data/raw/train.json`, `python run_pipeline.py` automatically ingests the external file and recomputes all four deliverables without any code edits.
 
@@ -200,20 +184,9 @@ python run_pipeline.py --use-sample-data
 
 ---
 
-## 7. Team Work Distribution
+## 7. References
 
-* **Student A:** Deliverable 1 (Dataset acquisition, normalization, alias resolution, FlavorDB/taste lexicon mapping) and Deliverable 2 (Recipe taste vector formulation, Shannon entropy/balance metrics, unit testing).
-* **Student B:** Literature review, Deliverable 3 (Cross-cuisine Kruskal–Wallis statistical analysis, Holm–Bonferroni correction, visualizations), and Deliverable 4 (Predictive modeling, masked-anchor circularity evaluation, final report).
-
----
-
-## 8. References
-
-1. Garg, N., et al. (2018). FlavorDB: a database of flavor molecules. *Nucleic Acids Research*, 46(D1), D1210–D1216. https://doi.org/10.1093/nar/gkx957
-2. Ahn, Y.-Y., Ahnert, S. E., Bagrow, J. P., & Barabási, A.-L. (2011). Flavor network and the principles of food pairing. *Scientific Reports*, 1, 196. https://doi.org/10.1038/srep00196
-3. Jain, A., NK, R., & Bagler, G. (2015). Analysis of food pairing in regional cuisines of India. *PLOS ONE*, 10(10), e0139539. https://doi.org/10.1371/journal.pone.0139539
-4. Singh, N., & Bagler, G. (2018). Data-driven investigations of culinary patterns in traditional recipes across the world. *arXiv preprint arXiv:1803.04343*. https://arxiv.org/abs/1803.04343
-
-```
-
-```
+1. Garg, N., et al. (2018). FlavorDB: a database of flavor molecules. *Nucleic Acids Research*, 46(D1), D1210–D1216. [https://doi.org/10.1093/nar/gkx957](https://doi.org/10.1093/nar/gkx957)
+2. Ahn, Y.-Y., Ahnert, S. E., Bagrow, J. P., & Barabási, A.-L. (2011). Flavor network and the principles of food pairing. *Scientific Reports*, 1, 196. [https://doi.org/10.1038/srep00196](https://doi.org/10.1038/srep00196)
+3. Jain, A., NK, R., & Bagler, G. (2015). Analysis of food pairing in regional cuisines of India. *PLOS ONE*, 10(10), e0139539. [https://doi.org/10.1371/journal.pone.0139539](https://doi.org/10.1371/journal.pone.0139539)
+4. Singh, N., & Bagler, G. (2018). Data-driven investigations of culinary patterns in traditional recipes across the world. *arXiv preprint arXiv:1803.04343*. [https://arxiv.org/abs/1803.04343](https://arxiv.org/abs/1803.04343)
