@@ -1,7 +1,7 @@
-evaluation_setting,model,accuracy,macro_f1,macro_precision,macro_recall
-Full_Ingredients (Circular Rule Recovery),DummyClassifier (Most Frequent),0.4,0.1143,0.08,0.2
-Full_Ingredients (Circular Rule Recovery),"LogisticRegression (L2, Balanced)",0.8857,0.8418,0.86,0.8357
-Full_Ingredients (Circular Rule Recovery),"RandomForest (150 trees, Balanced)",0.8857,0.8418,0.86,0.8357
-Masked_Anchors (Non-Circular Context Proxy),DummyClassifier (Most Frequent),0.4,0.1143,0.08,0.2
-Masked_Anchors (Non-Circular Context Proxy),"LogisticRegression (L2, Balanced)",0.8286,0.7968,0.8121,0.8071
-Masked_Anchors (Non-Circular Context Proxy),"RandomForest (150 trees, Balanced)",0.8571,0.8245,0.8455,0.8214
+evaluation_setting,model,cv_f1_macro_mean,cv_f1_macro_std,test_accuracy,test_macro_f1,test_macro_precision,test_macro_recall
+Setting 1: Full_Ingredients (Circular Rule Recovery),DummyClassifier (Most Frequent),0.0987,0.0,0.3277,0.0987,0.0655,0.2
+Setting 1: Full_Ingredients (Circular Rule Recovery),"LogisticRegression (L2, Balanced)",0.9385,0.0025,0.9477,0.94,0.9318,0.9498
+Setting 1: Full_Ingredients (Circular Rule Recovery),"RandomForest (150 trees, Balanced)",0.7282,0.0088,0.7496,0.7292,0.7203,0.7633
+Setting 2: Masked_Anchors (Contextual Co-occurrence),DummyClassifier (Most Frequent),0.0988,0.0,0.328,0.0988,0.0656,0.2
+Setting 2: Masked_Anchors (Contextual Co-occurrence),"LogisticRegression (L2, Balanced)",0.628,0.0014,0.6583,0.631,0.6223,0.6516
+Setting 2: Masked_Anchors (Contextual Co-occurrence),"RandomForest (150 trees, Balanced)",0.5724,0.0069,0.5964,0.565,0.5655,0.6007

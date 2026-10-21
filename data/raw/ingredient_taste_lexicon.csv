@@ -1,75 +1,93 @@
-ingredient_norm,category,sweet,sour,bitter,salty,umami,flavordb_id,primary_flavor_compounds,annotation_source
-garlic,allium,0.15,0.05,0.1,0.0,0.35,FDB000142,allicin;diallyl disulfide,culinary_sensory+FlavorDB
-black garlic,allium,0.65,0.25,0.05,0.1,0.8,FDB000142_ferm,S-allyl-cysteine;5-HMF,culinary_sensory
-onion,allium,0.35,0.05,0.05,0.0,0.3,FDB000281,dipropyl disulfide;quercetin,culinary_sensory+FlavorDB
-red onion,allium,0.3,0.1,0.1,0.0,0.2,FDB000282,anthocyanins;thiopropanal S-oxide,culinary_sensory+FlavorDB
-green onion,allium,0.2,0.05,0.1,0.0,0.2,FDB000285,propyl mercaptan,culinary_sensory+FlavorDB
-ginger,spice_rhizome,0.1,0.1,0.2,0.0,0.05,FDB000155,6-gingerol;zingiberene,culinary_sensory+FlavorDB
-dried ginger,spice_rhizome,0.1,0.05,0.25,0.0,0.05,FDB000155_dry,shogaol;zingerone,culinary_sensory+FlavorDB
-turmeric,spice_rhizome,0.05,0.05,0.65,0.0,0.05,FDB000412,curcumin;turmerone,culinary_sensory+FlavorDB
-cumin,spice_seed,0.05,0.05,0.45,0.0,0.1,FDB000118,cuminaldehyde;p-cymene,culinary_sensory+FlavorDB
-coriander seed,spice_seed,0.15,0.1,0.25,0.0,0.05,FDB000109,linalool;alpha-pinene,culinary_sensory+FlavorDB
-fenugreek,spice_seed,0.15,0.0,0.85,0.0,0.1,FDB000136,sotolon;trigonelline,culinary_sensory+FlavorDB
-black pepper,spice,0.0,0.0,0.35,0.0,0.05,FDB000064,piperine;rotundone,culinary_sensory+FlavorDB
-cayenne pepper,chili,0.05,0.05,0.25,0.0,0.05,FDB000081,capsaicin;dihydrocapsaicin,culinary_sensory+FlavorDB
-green chili,chili,0.1,0.1,0.25,0.0,0.05,FDB000082,capsaicin;2-isobutyl-3-methoxypyrazine,culinary_sensory+FlavorDB
-jalapeno,chili,0.15,0.1,0.2,0.0,0.05,FDB000083,capsaicin;hexanal,culinary_sensory+FlavorDB
-bell pepper,vegetable,0.45,0.1,0.1,0.0,0.1,FDB000084,2-methoxy-3-isobutylpyrazine,culinary_sensory+FlavorDB
-tomato,vegetable_fruit,0.35,0.45,0.05,0.05,0.7,FDB000398,glutamic acid;hexanal;lycopene,culinary_sensory+FlavorDB
-tomato paste,condiment,0.4,0.5,0.1,0.15,0.9,FDB000399,L-glutamate;furfural,culinary_sensory+FlavorDB
-lemon juice,citrus,0.1,0.95,0.1,0.0,0.0,FDB000210,citric acid;limonene;citral,culinary_sensory+FlavorDB
-lime juice,citrus,0.08,0.95,0.15,0.0,0.0,FDB000214,citric acid;gamma-terpinene,culinary_sensory+FlavorDB
-tamarind,fruit_acid,0.35,0.85,0.1,0.0,0.05,FDB000385,tartaric acid;2-acetylfuran,culinary_sensory+FlavorDB
-vinegar,acid,0.05,0.9,0.05,0.0,0.05,FDB000430,acetic acid;ethyl acetate,culinary_sensory+FlavorDB
-rice vinegar,acid,0.2,0.75,0.0,0.05,0.1,FDB000431,acetic acid;lactic acid,culinary_sensory
-sugar,sweetener,1.0,0.0,0.0,0.0,0.0,FDB000370,sucrose,culinary_sensory+SweetenersDB
-brown sugar,sweetener,0.95,0.05,0.05,0.02,0.05,FDB000371,sucrose;molasses furans,culinary_sensory+SweetenersDB
-honey,sweetener,0.95,0.1,0.05,0.0,0.0,FDB000175,fructose;glucose;phenylacetic acid,culinary_sensory+SweetenersDB
-maple syrup,sweetener,0.95,0.05,0.05,0.0,0.05,FDB000232,sucrose;sotolon;vanillin,culinary_sensory+SweetenersDB
-coconut milk,dairy_plant,0.45,0.0,0.0,0.05,0.1,FDB000102,delta-octalactone;gamma-nonalactone,culinary_sensory+FlavorDB
-milk,dairy,0.3,0.05,0.0,0.05,0.1,FDB000245,lactose;2-heptanone,culinary_sensory+FlavorDB
-heavy cream,dairy,0.25,0.05,0.0,0.05,0.1,FDB000246,delta-decalactone;diacetyl,culinary_sensory+FlavorDB
-butter,dairy,0.15,0.02,0.0,0.05,0.1,FDB000070,diacetyl;butyric acid,culinary_sensory+FlavorDB
-salted butter,dairy,0.15,0.02,0.0,0.55,0.1,FDB000071,diacetyl;sodium chloride,culinary_sensory
-yogurt,dairy_fermented,0.15,0.65,0.05,0.1,0.15,FDB000445,lactic acid;acetaldehyde,culinary_sensory+FlavorDB
-parmesan cheese,dairy_aged,0.05,0.15,0.1,0.75,0.95,FDB000091,monosodium glutamate;butyric acid,culinary_sensory+FlavorDB
-cheddar cheese,dairy_aged,0.05,0.2,0.1,0.65,0.65,FDB000089,lactic acid;methional,culinary_sensory+FlavorDB
-feta cheese,dairy_brined,0.05,0.45,0.05,0.85,0.45,FDB000093,octanoic acid;sodium chloride,culinary_sensory+FlavorDB
-salt,mineral,0.0,0.0,0.0,1.0,0.0,FDB000350,sodium chloride,culinary_sensory
-soy sauce,fermented_condiment,0.15,0.15,0.1,0.9,0.95,FDB000365,L-glutamate;HEMF;sodium chloride,culinary_sensory+FlavorDB
-fish sauce,fermented_condiment,0.1,0.1,0.05,0.95,0.98,FDB000138,glutamic acid;inosine monophosphate,culinary_sensory+FlavorDB
-miso paste,fermented_condiment,0.25,0.15,0.1,0.85,0.9,FDB000248,glutamate;4-ethylguaiacol,culinary_sensory+FlavorDB
-oyster sauce,fermented_condiment,0.45,0.05,0.05,0.8,0.9,FDB000288,glutamate;glycine;sucrose,culinary_sensory
-anchovy,seafood,0.0,0.05,0.05,0.85,0.95,FDB000018,inosine-5-monophosphate;trimethylamine,culinary_sensory+FlavorDB
-shrimp,seafood,0.3,0.0,0.0,0.35,0.7,FDB000355,glycine;glutamate;astaxanthin,culinary_sensory+FlavorDB
-chicken,meat,0.05,0.0,0.0,0.15,0.65,FDB000095,inosinate;glutamate;2-methyl-3-furanthiol,culinary_sensory+FlavorDB
-beef,meat,0.05,0.05,0.05,0.15,0.75,FDB000045,inosine monophosphate;12-methyltridecanal,culinary_sensory+FlavorDB
-pork,meat,0.1,0.0,0.0,0.15,0.7,FDB000310,inosinate;gamma-nonalactone,culinary_sensory+FlavorDB
-mushroom,fungi,0.1,0.02,0.05,0.05,0.85,FDB000255,guanylate;1-octen-3-ol,culinary_sensory+FlavorDB
-shiitake mushroom,fungi,0.1,0.05,0.05,0.05,0.95,FDB000256,5-GMP;lenthionine,culinary_sensory+FlavorDB
-olive oil,fat_oil,0.05,0.02,0.35,0.0,0.0,FDB000275,oleocanthal;oleuropein;hexanal,culinary_sensory+BitterDB
-sesame oil,fat_oil,0.1,0.0,0.15,0.0,0.15,FDB000352,sesamol;2-acetylpyrazine,culinary_sensory+FlavorDB
-basil,herb,0.2,0.0,0.25,0.0,0.05,FDB000040,estragole;linalool;eugenol,culinary_sensory+FlavorDB
-cilantro,herb,0.05,0.1,0.2,0.0,0.0,FDB000108,(E)-2-decenal;decanal,culinary_sensory+FlavorDB
-oregano,herb,0.05,0.05,0.4,0.0,0.05,FDB000286,carvacrol;thymol,culinary_sensory+FlavorDB
-rosemary,herb,0.05,0.05,0.45,0.0,0.0,FDB000338,"1,8-cineole;camphor",culinary_sensory+FlavorDB
-mint,herb,0.2,0.05,0.2,0.0,0.0,FDB000247,L-menthol;menthone,culinary_sensory+FlavorDB
-cocoa powder,cocoa,0.05,0.1,0.95,0.0,0.05,FDB000100,theobromine;caffeine;diketopiperazines,culinary_sensory+BitterDB
-coffee,beverage_extract,0.02,0.25,0.92,0.0,0.05,FDB000105,caffeine;chlorogenic acid lactones,culinary_sensory+BitterDB
-kale,leafy_green,0.1,0.05,0.7,0.05,0.1,FDB000192,glucosinolates;sinigrin,culinary_sensory+BitterDB
-spinach,leafy_green,0.15,0.05,0.35,0.1,0.2,FDB000368,oxalic acid;glutamate,culinary_sensory+FlavorDB
-eggplant,vegetable,0.15,0.05,0.45,0.0,0.2,FDB000128,solasonine;chlorogenic acid,culinary_sensory+BitterDB
-carrot,root_vegetable,0.6,0.05,0.1,0.05,0.1,FDB000078,sucrose;terpinolene;falcarinol,culinary_sensory+FlavorDB
-sweet potato,root_vegetable,0.75,0.02,0.05,0.02,0.05,FDB000380,maltose;beta-ionone,culinary_sensory+FlavorDB
-potato,tuber,0.15,0.02,0.05,0.02,0.15,FDB000315,methional;solanine,culinary_sensory+FlavorDB
-rice,grain,0.25,0.0,0.0,0.0,0.05,FDB000335,2-acetyl-1-pyrroline,culinary_sensory+FlavorDB
-wheat flour,grain,0.15,0.0,0.02,0.0,0.05,FDB000438,hexanal;nonanal,culinary_sensory+FlavorDB
-black beans,legume,0.15,0.05,0.15,0.05,0.3,FDB000055,saponins;glutamic acid,culinary_sensory
-chickpeas,legume,0.2,0.02,0.1,0.05,0.25,FDB000096,hexanal;glutamate,culinary_sensory
-avocado,fruit_fat,0.15,0.02,0.1,0.02,0.2,FDB000032,(E)-2-hexenal;oleic acid,culinary_sensory+FlavorDB
-mango,fruit,0.85,0.35,0.02,0.0,0.0,FDB000230,furaneol;ethyl butanoate;myrcene,culinary_sensory+FlavorDB
-apple,fruit,0.75,0.4,0.05,0.0,0.0,FDB000022,malic acid;hexyl acetate,culinary_sensory+FlavorDB
-cinnamon,spice_bark,0.4,0.0,0.2,0.0,0.0,FDB000098,cinnamaldehyde;eugenol,culinary_sensory+FlavorDB
-vanilla,spice_pod,0.35,0.0,0.1,0.0,0.0,FDB000425,vanillin;p-hydroxybenzaldehyde,culinary_sensory+FlavorDB
-capers,pickled_bud,0.05,0.65,0.35,0.85,0.25,FDB000074,rutin;glucocapparin;sodium chloride,culinary_sensory+FlavorDB
-olives,pickled_fruit,0.05,0.35,0.45,0.8,0.35,FDB000274,oleuropein;lactic acid;sodium chloride,culinary_sensory+BitterDB
+ingredient_norm,category,sweet,sour,bitter,salty,umami,chemesthetic_pungency,confidence_level,flavordb_id,primary_aroma_compounds,annotation_provenance
+garlic,allium,0.15,0.05,0.1,0.0,0.35,allicin_pungency,medium,FDB000142,diallyl disulfide;allyl mercaptan,Curated Proxy (Allium cepa/sativum profile; Garg et al. 2018)
+black garlic,allium,0.65,0.25,0.05,0.1,0.8,none,medium,FDB000142_ferm,S-allyl-cysteine;5-HMF,Curated Proxy (Aged fermented allium profile)
+onion,allium,0.35,0.05,0.05,0.0,0.3,none,medium,FDB000281,dipropyl disulfide;quercetin,Curated Proxy (Allium cepa sensory proxy)
+red onion,allium,0.3,0.1,0.1,0.0,0.2,none,medium,FDB000282,anthocyanins;thiopropanal S-oxide,Curated Proxy (Sensory proxy; USDA nutrient sugar/acid)
+green onion,allium,0.2,0.05,0.1,0.0,0.2,none,medium,FDB000285,propyl mercaptan;diallyl disulfide,Curated Proxy (Sensory proxy; FlavorDB FDB000285)
+shallot,allium,0.4,0.05,0.05,0.0,0.3,allicin_pungency,medium,FDB000353,dipropyl disulfide;methyl propyl disulfide,Curated Proxy (Allium ascalonicum proxy)
+ginger,spice_rhizome,0.1,0.1,0.2,0.0,0.05,gingerol_pungency,high,FDB000155,6-gingerol;zingiberene;curcumene,Curated Proxy (Rhizome taste proxy; FlavorDB)
+dried ginger,spice_rhizome,0.1,0.05,0.25,0.0,0.05,gingerol_pungency,high,FDB000155_dry,shogaol;zingerone,Curated Proxy (Dehydrated pungent rhizome profile)
+turmeric,spice_rhizome,0.05,0.05,0.65,0.0,0.05,none,medium,FDB000412,curcumin;turmerone;curlone,Curated Proxy (Curcuma longa bitter-earthy profile)
+cumin,spice_seed,0.05,0.05,0.45,0.0,0.1,none,medium,FDB000118,cuminaldehyde;p-cymene;terpinen-7-al,Curated Proxy (Cuminum cyminum seed profile)
+coriander seed,spice_seed,0.15,0.1,0.25,0.0,0.05,none,medium,FDB000109,linalool;alpha-pinene;gamma-terpinene,Curated Proxy (Coriandrum sativum seed profile)
+fenugreek,spice_seed,0.15,0.0,0.85,0.0,0.1,none,high,FDB000136,sotolon;trigonelline;4-hydroxyisoleucine,Curated Proxy (Trigonella foenum-graecum intense bitter seed)
+black pepper,spice,0.0,0.0,0.35,0.0,0.05,piperine_pungency,high,FDB000064,piperine;rotundone;beta-caryophyllene,Curated Proxy (Piper nigrum piperine proxy)
+cinnamon,spice_bark,0.4,0.0,0.2,0.0,0.0,none,medium,FDB000098,cinnamaldehyde;eugenol;coumarin,Curated Proxy (Cinnamomum verum bark sweet-spicy proxy)
+vanilla,spice_pod,0.35,0.0,0.1,0.0,0.0,none,high,FDB000425,vanillin;p-hydroxybenzaldehyde,Curated Proxy (Vanilla planifolia aromatic pod proxy)
+cayenne pepper,chili,0.05,0.05,0.25,0.0,0.05,capsaicin_heat,high,FDB000081,capsaicin;dihydrocapsaicin,Curated Proxy (Capsicum annuum pungency standard)
+green chili,chili,0.1,0.1,0.25,0.0,0.05,capsaicin_heat,high,FDB000082,capsaicin;2-isobutyl-3-methoxypyrazine,Curated Proxy (Capsicum frutescens green pungent profile)
+jalapeno,chili,0.15,0.1,0.2,0.0,0.05,capsaicin_heat,high,FDB000083,capsaicin;hexanal,Curated Proxy (Capsicum annuum cv. Jalapeno proxy)
+bell pepper,vegetable,0.45,0.1,0.1,0.0,0.1,none,medium,FDB000084,2-methoxy-3-isobutylpyrazine;beta-carotene,Curated Proxy (Non-pungent sweet capsicum profile)
+tomato,vegetable_fruit,0.35,0.45,0.05,0.05,0.7,none,high,FDB000398,glutamic acid;hexanal;lycopene;citric acid,Curated Proxy (Solanum lycopersicum high glutamate/acid proxy)
+tomato paste,condiment,0.4,0.5,0.1,0.15,0.9,none,high,FDB000399,L-glutamate;citric acid;furfural,Curated Proxy (Concentrated tomato solids proxy)
+carrot,root_vegetable,0.6,0.05,0.1,0.05,0.1,none,medium,FDB000078,sucrose;terpinolene;falcarinol,Curated Proxy (Daucus carota high sucrose root proxy)
+sweet potato,root_vegetable,0.75,0.02,0.05,0.02,0.05,none,medium,FDB000380,maltose;beta-ionone;sucrose,Curated Proxy (Ipomoea batatas carbohydrate-rich proxy)
+potato,tuber,0.15,0.02,0.05,0.02,0.15,none,low_proxy,FDB000315,methional;solanine;starch,Curated Proxy (Solanum tuberosum neutral starch proxy)
+eggplant,vegetable,0.15,0.05,0.45,0.0,0.2,none,medium,FDB000128,solasonine;chlorogenic acid;delphinidin,Curated Proxy (Solanum melongena bitter saponoid proxy)
+spinach,leafy_green,0.15,0.05,0.35,0.1,0.2,none,medium,FDB000368,oxalic acid;glutamate;chlorophyll,Curated Proxy (Spinacia oleracea oxalic/glutamate proxy)
+kale,leafy_green,0.1,0.05,0.7,0.05,0.1,none,high,FDB000192,glucosinolates;sinigrin;sulforaphane,Curated Proxy (Brassica oleracea glucosinolate bitter proxy)
+celery,vegetable,0.15,0.05,0.35,0.1,0.15,none,medium,FDB000085,sedanolide;apigenin;sodium,Curated Proxy (Apium graveolens aromatic/mineral proxy)
+avocado,fruit_fat,0.15,0.02,0.1,0.02,0.2,none,low_proxy,FDB000032,(E)-2-hexenal;oleic acid;glutathione,Curated Proxy (Persea americana lipid-rich fruit proxy)
+mango,fruit,0.85,0.35,0.02,0.0,0.0,none,high,FDB000230,furaneol;ethyl butanoate;myrcene,Curated Proxy (Mangifera indica sugar/citric acid proxy)
+apple,fruit,0.75,0.4,0.05,0.0,0.0,none,high,FDB000022,fructose;malic acid;hexyl acetate,Curated Proxy (Malus domestica malic/fructose proxy)
+lemon juice,citrus,0.1,0.95,0.1,0.0,0.0,none,high,FDB000210,citric acid;limonene;citral,Reference Standard (Citric acid 5-6% solution proxy)
+lime juice,citrus,0.08,0.95,0.15,0.0,0.0,none,high,FDB000214,citric acid;gamma-terpinene;terpineol,Reference Standard (Citric acid 5-7% solution proxy)
+vinegar,acid,0.05,0.9,0.05,0.0,0.05,none,high,FDB000430,acetic acid;ethyl acetate,Reference Standard (Acetic acid 4-6% solution proxy)
+rice vinegar,acid,0.2,0.75,0.0,0.05,0.1,none,high,FDB000431,acetic acid;lactic acid;amino acids,Curated Proxy (Mild fermented rice acid proxy)
+tamarind,fruit_acid,0.35,0.85,0.1,0.0,0.05,none,high,FDB000385,tartaric acid;2-acetylfuran;invert sugar,Curated Proxy (Tamarindus indica tartaric acid proxy)
+white wine,beverage_extract,0.15,0.7,0.1,0.0,0.05,none,medium,FDB000441,tartaric acid;ethyl hexanoate;succinic acid,Curated Proxy (Vinum acid-succinic proxy)
+red wine,beverage_extract,0.1,0.65,0.25,0.0,0.05,none,medium,FDB000332,tartaric acid;tannins;catechin;resveratrol,Curated Proxy (Vinum rubrum tannin-acid proxy)
+sugar,sweetener,1.0,0.0,0.0,0.0,0.0,none,high,FDB000370,sucrose,Reference Standard (Pure sucrose gustatory standard)
+brown sugar,sweetener,0.95,0.05,0.05,0.02,0.05,none,high,FDB000371,sucrose;molasses furans;invert sugar,Curated Proxy (Sucrose with cane molasses residue)
+honey,sweetener,0.95,0.1,0.05,0.0,0.0,none,high,FDB000175,fructose;glucose;phenylacetic acid,Curated Proxy (Apis mellifera inverted nectar proxy)
+maple syrup,sweetener,0.95,0.05,0.05,0.0,0.05,none,high,FDB000232,sucrose;sotolon;vanillin,Curated Proxy (Acer saccharum concentrated sap proxy)
+salt,mineral,0.0,0.0,0.0,1.0,0.0,none,high,FDB000350,sodium chloride,Reference Standard (Pure NaCl gustatory standard)
+baking powder,mineral_leavening,0.0,0.05,0.25,0.45,0.0,none,high,unmapped,sodium bicarbonate;sodium acid pyrophosphate,Curated Proxy (Alkaline-mineral leavening salt)
+milk,dairy,0.3,0.05,0.0,0.05,0.1,none,medium,FDB000245,lactose;2-heptanone;butyric acid,Curated Proxy (Bovine milk lactose/protein proxy)
+heavy cream,dairy,0.25,0.05,0.0,0.05,0.1,none,medium,FDB000246,delta-decalactone;diacetyl;milk fat,Curated Proxy (High fat dairy emulsion proxy)
+butter,dairy,0.15,0.02,0.0,0.05,0.1,none,medium,FDB000070,diacetyl;butyric acid;lactones,Curated Proxy (Sweet cream unsalted butter proxy)
+salted butter,dairy,0.15,0.02,0.0,0.55,0.1,none,high,FDB000071,diacetyl;sodium chloride,Curated Proxy (Butter with 1.5-2.0% NaCl proxy)
+sour cream,dairy_fermented,0.15,0.6,0.02,0.1,0.2,none,medium,FDB000246_fermented,lactic acid;diacetyl;acetoin,Curated Proxy (Cultured dairy lactic acid proxy)
+yogurt,dairy_fermented,0.15,0.65,0.05,0.1,0.15,none,medium,FDB000445,lactic acid;acetaldehyde,Curated Proxy (Lactobacillus fermented curd proxy)
+parmesan cheese,dairy_aged,0.05,0.15,0.1,0.75,0.95,none,high,FDB000091,monosodium glutamate;butyric acid;propionic acid,Curated Proxy (Aged hard curd glutamate/NaCl proxy)
+cheddar cheese,dairy_aged,0.05,0.2,0.1,0.65,0.65,none,medium,FDB000089,lactic acid;methional;butyric acid,Curated Proxy (Aged curd sodium/lactate proxy)
+feta cheese,dairy_brined,0.05,0.45,0.05,0.85,0.45,none,high,FDB000093,octanoic acid;sodium chloride;lactic acid,Curated Proxy (Brined sheep/goat cheese proxy)
+mayonnaise,condiment,0.15,0.45,0.02,0.45,0.25,none,medium,unmapped,acetic acid;egg yolk lipids;sodium chloride,Curated Proxy (Acidified oil-egg emulsion proxy)
+mustard,condiment,0.05,0.55,0.35,0.4,0.1,isothiocyanate_pungency,high,FDB000257,allyl isothiocyanate;sinigrin;acetic acid,Curated Proxy (Sinapis alba pungent seed condiment)
+soy sauce,fermented_condiment,0.15,0.15,0.1,0.9,0.95,none,high,FDB000365,L-glutamate;HEMF;sodium chloride,Curated Proxy (Brewed glycine/wheat hydrolysate proxy)
+fish sauce,fermented_condiment,0.1,0.1,0.05,0.95,0.98,none,high,FDB000138,glutamic acid;inosine monophosphate;NaCl,Curated Proxy (Anchovy autolysate nucleotide proxy)
+miso paste,fermented_condiment,0.25,0.15,0.1,0.85,0.9,none,high,FDB000248,glutamate;4-ethylguaiacol;succinic acid,Curated Proxy (Fermented koji soybean paste proxy)
+oyster sauce,fermented_condiment,0.45,0.05,0.05,0.8,0.9,none,medium,FDB000288,glutamate;glycine;sucrose;cornstarch,Curated Proxy (Caramelized bivalve extract proxy)
+anchovy,seafood,0.0,0.05,0.05,0.85,0.95,none,high,FDB000018,inosine-5-monophosphate;trimethylamine;salt,Curated Proxy (Engraulidae nucleotide-rich tissue proxy)
+shrimp,seafood,0.3,0.0,0.0,0.35,0.7,none,medium,FDB000355,glycine;glutamate;astaxanthin;betaine,Curated Proxy (Crustacean sweet glycine/umami proxy)
+chicken,meat,0.05,0.0,0.0,0.15,0.65,none,medium,FDB000095,inosinate;glutamate;2-methyl-3-furanthiol,Curated Proxy (Gallus gallus avian muscular tissue proxy)
+chicken broth,broth_stock,0.05,0.02,0.0,0.65,0.8,none,medium,FDB000095_broth,glutamate;inosinate;sodium chloride,Curated Proxy (Simmered poultry stock proxy)
+beef,meat,0.05,0.05,0.05,0.15,0.75,none,medium,FDB000045,inosine monophosphate;12-methyltridecanal,Curated Proxy (Bos taurus mammalian muscular tissue proxy)
+pork,meat,0.1,0.0,0.0,0.15,0.7,none,medium,FDB000310,inosinate;gamma-nonalactone;glutamate,Curated Proxy (Sus domesticus muscular tissue proxy)
+egg,poultry_egg,0.05,0.0,0.0,0.05,0.35,none,medium,FDB000129,ovomucoid;lecithin;ovalbumin;cysteine,Curated Proxy (Whole avian egg protein/lipid proxy)
+mushroom,fungi,0.1,0.02,0.05,0.05,0.85,none,high,FDB000255,guanylate;1-octen-3-ol;glutamic acid,Curated Proxy (Agaricus bisporus nucleotide proxy)
+shiitake mushroom,fungi,0.1,0.05,0.05,0.05,0.95,none,high,FDB000256,5-GMP;lenthionine;guanosine monophosphate,Curated Proxy (Lentinula edodes high 5-GMP proxy)
+olive oil,fat_oil,0.05,0.02,0.35,0.0,0.0,none,medium,FDB000275,oleocanthal;oleuropein;hexanal,Curated Proxy (Olea europaea virgin lipid bitter proxy)
+sesame oil,fat_oil,0.1,0.0,0.15,0.0,0.15,none,medium,FDB000352,sesamol;2-acetylpyrazine;sesamolin,Curated Proxy (Toasted Sesamum indicum lipid proxy)
+cooking oil,fat_oil,0.02,0.0,0.02,0.0,0.0,none,high,FDB000277,oleic acid;linoleic acid;tocopherols,Curated Proxy (Refined neutral vegetable lipid proxy)
+basil,herb,0.2,0.0,0.25,0.0,0.05,none,medium,FDB000040,estragole;linalool;eugenol,Curated Proxy (Ocimum basilicum leaf proxy)
+cilantro,herb,0.05,0.1,0.2,0.0,0.0,none,medium,FDB000108,(E)-2-decenal;decanal;linalool,Curated Proxy (Coriandrum sativum fresh foliage proxy)
+oregano,herb,0.05,0.05,0.4,0.0,0.05,none,medium,FDB000286,carvacrol;thymol;p-cymene,Curated Proxy (Origanum vulgare leaf bitter proxy)
+rosemary,herb,0.05,0.05,0.45,0.0,0.0,none,medium,FDB000338,"1,8-cineole;camphor;borneol",Curated Proxy (Salvia rosmarinus pinene/bitter proxy)
+thyme,herb,0.05,0.02,0.4,0.0,0.05,none,medium,FDB000394,thymol;p-cymene;gamma-terpinene,Curated Proxy (Thymus vulgaris phenolic proxy)
+parsley,herb,0.05,0.02,0.35,0.0,0.05,none,medium,FDB000293,"apiol;myristicin;1,3,8-p-menthatriene",Curated Proxy (Petroselinum crispum bitter foliage proxy)
+bay leaf,herb,0.05,0.02,0.45,0.0,0.05,none,medium,FDB000041,"1,8-cineole;eugenol;methyl eugenol",Curated Proxy (Laurus nobilis bitter aromatic foliage proxy)
+dill,herb,0.05,0.05,0.3,0.0,0.05,none,medium,FDB000125,carvone;alpha-phellandrene;limonene,Curated Proxy (Anethum graveolens fresh leaf proxy)
+mint,herb,0.2,0.05,0.2,0.0,0.0,none,medium,FDB000247,L-menthol;menthone;menthyl acetate,Curated Proxy (Mentha spicata cooling aromatic proxy)
+cocoa powder,cocoa,0.05,0.1,0.95,0.0,0.05,none,high,FDB000100,theobromine;caffeine;diketopiperazines,Curated Proxy (Theobroma cacao alkaloid bitter proxy)
+coffee,beverage_extract,0.02,0.25,0.92,0.0,0.05,none,high,FDB000105,caffeine;chlorogenic acid lactones;quinides,Curated Proxy (Coffea arabica pyrolytic bitter proxy)
+rice,grain,0.25,0.0,0.0,0.0,0.05,none,medium,FDB000335,2-acetyl-1-pyrroline;starch,Curated Proxy (Oryza sativa starch proxy)
+wheat flour,grain,0.15,0.0,0.02,0.0,0.05,none,low_proxy,FDB000438,hexanal;nonanal;gliadin;glutenin,Curated Proxy (Triticum aestivum cereal grain proxy)
+cornstarch,grain_starch,0.08,0.0,0.0,0.0,0.0,none,high,FDB000110,amylose;amylopectin,Reference Standard (Zea mays purified starch proxy)
+water,neutral_solvent,0.0,0.0,0.0,0.0,0.0,none,high,FDB000435,dihydrogen monoxide,Reference Standard (Pure aqueous neutral baseline)
+black beans,legume,0.15,0.05,0.15,0.05,0.3,none,medium,FDB000055,saponins;glutamic acid;phaseolin,Curated Proxy (Phaseolus vulgaris cooked legume proxy)
+chickpeas,legume,0.2,0.02,0.1,0.05,0.25,none,medium,FDB000096,hexanal;glutamate;stachyose,Curated Proxy (Cicer arietinum cooked legume proxy)
+coconut milk,plant_milk,0.45,0.0,0.0,0.05,0.1,none,medium,FDB000102,delta-octalactone;gamma-nonalactone;lauric acid,Curated Proxy (Cocos nucifera endosperm emulsion proxy)
+sesame seeds,seed,0.1,0.0,0.15,0.0,0.2,none,medium,FDB000351,sesamin;2-acetylpyrazine;sesamolin,Curated Proxy (Sesamum indicum roasted seed proxy)
+capers,pickled_bud,0.05,0.65,0.35,0.85,0.25,none,high,FDB000074,rutin;glucocapparin;sodium chloride,Curated Proxy (Brined Capparis spinosa floral bud proxy)
+olives,pickled_fruit,0.05,0.35,0.45,0.8,0.35,none,high,FDB000274,oleuropein;lactic acid;sodium chloride,Curated Proxy (Brined/cured Olea europaea fruit proxy)
