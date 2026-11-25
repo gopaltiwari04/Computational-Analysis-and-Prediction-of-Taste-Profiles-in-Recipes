@@ -1,0 +1,16 @@
+# Ignore full ML/pipeline requirements on Vercel so pyproject.toml installs only lean FastAPI runtime
+requirements.txt
+
+.venv/
+.git/
+__pycache__/
+.pytest_cache/
+tests/
+docs/
+reports/
+scripts/
+data/raw/train.json
+data/processed/recipe_ingredients.csv
+data/processed/recipes_clean.csv
+data/processed/ingredient_flavor_mapping.csv
+models/taste_model.joblib

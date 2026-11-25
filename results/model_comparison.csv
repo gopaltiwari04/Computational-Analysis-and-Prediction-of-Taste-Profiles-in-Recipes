@@ -1,7 +1,7 @@
-evaluation_setting,model,cv_f1_macro_mean,cv_f1_macro_std,test_accuracy,test_macro_f1,test_macro_precision,test_macro_recall
-Setting 1: Full_Ingredients (Circular Rule Recovery),DummyClassifier (Most Frequent),0.0987,0.0,0.3277,0.0987,0.0655,0.2
-Setting 1: Full_Ingredients (Circular Rule Recovery),"LogisticRegression (L2, Balanced)",0.9385,0.0025,0.9477,0.94,0.9318,0.9498
-Setting 1: Full_Ingredients (Circular Rule Recovery),"RandomForest (150 trees, Balanced)",0.7282,0.0088,0.7496,0.7292,0.7203,0.7633
-Setting 2: Masked_Anchors (Contextual Co-occurrence),DummyClassifier (Most Frequent),0.0988,0.0,0.328,0.0988,0.0656,0.2
-Setting 2: Masked_Anchors (Contextual Co-occurrence),"LogisticRegression (L2, Balanced)",0.628,0.0014,0.6583,0.631,0.6223,0.6516
-Setting 2: Masked_Anchors (Contextual Co-occurrence),"RandomForest (150 trees, Balanced)",0.5724,0.0069,0.5964,0.565,0.5655,0.6007
+evaluation_setting,model,n_train,n_test,cv_f1_macro_mean,cv_f1_macro_std,test_accuracy,test_acc_ci95,test_macro_f1,test_f1_ci95,test_macro_precision,test_macro_recall
+Setting 1: Full_Ingredients (Rule Recovery),DummyClassifier (Most Frequent),28044,9348,0.0994,0.0,0.3308,"[0.3228, 0.3401]",0.0994,"[0.0976, 0.1015]",0.0662,0.2
+Setting 1: Full_Ingredients (Rule Recovery),"LogisticRegression (L2, Balanced)",28044,9348,0.9242,0.0016,0.9411,"[0.9365, 0.9453]",0.9345,"[0.9290, 0.9397]",0.9277,0.9423
+Setting 1: Full_Ingredients (Rule Recovery),"RandomForest (150 trees, Balanced)",28044,9348,0.7157,0.0068,0.7441,"[0.7345, 0.7526]",0.7207,"[0.7106, 0.7292]",0.7133,0.7419
+Setting 2: Masked_Anchors (Contextual Co-occurrence),DummyClassifier (Most Frequent),27971,9142,0.0996,0.0,0.336,"[0.3271, 0.3466]",0.1006,"[0.0986, 0.1029]",0.0672,0.2
+Setting 2: Masked_Anchors (Contextual Co-occurrence),"LogisticRegression (L2, Balanced)",27971,9142,0.5918,0.0062,0.6082,"[0.5978, 0.6169]",0.5942,"[0.5830, 0.6038]",0.5846,0.6165
+Setting 2: Masked_Anchors (Contextual Co-occurrence),"RandomForest (150 trees, Balanced)",27971,9142,0.5542,0.0069,0.5671,"[0.5556, 0.5765]",0.5479,"[0.5368, 0.5579]",0.5443,0.5767

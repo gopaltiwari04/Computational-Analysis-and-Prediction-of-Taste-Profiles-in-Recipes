@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computational Gastronomy — Taste Profile &amp; Prediction Explorer</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="eyebrow">Computational Gastronomy Research Workbench</div>
+        <h1>Recipe Taste Profile &amp; Cross-Cuisine Explorer</h1>
+        <p class="subtitle">
+          Maps unstructured recipe ingredients onto a 5-dimensional gustatory proxy simplex
+          (<code>sweet</code>, <code>sour</code>, <code>bitter</code>, <code>salty</code>, <code>umami</code>),
+          separating volatile aroma molecules and trigeminal chemesthesis from basic lingual taste.
+        </p>
+      </div>
+      <div class="status-card" id="corpusBanner">
+        <span class="badge" id="corpusBadge">Loading corpus...</span>
+        <div class="stats-mini" id="corpusStats"></div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs-bar">
+    <div class="container tabs-inner">
+      <button class="tab-btn active" data-tab="analyzer">1. Recipe Taste Analyzer</button>
+      <button class="tab-btn" data-tab="cuisines">2. Cross-Cuisine Explorer</button>
+      <button class="tab-btn" data-tab="similar">3. Similarity Retrieval</button>
+      <button class="tab-btn" data-tab="lexicon">4. Verified Lexicon &amp; Disclosures</button>
+    </div>
+  </nav>
+
+  <main class="container main-content">
+    <!-- TAB 1: ANALYZER -->
+    <section id="tab-analyzer" class="tab-panel active">
+      <div class="card">
+        <h2>Analyze a Recipe Ingredient List</h2>
+        <p class="hint">
+          Enter comma- or newline-separated ingredients. Presets below test distinct culinary behaviors
+          including trigeminal heat (capsaicin/gingerol), fermented umami, and masked-anchor co-occurrence.
+        </p>
+        <div class="preset-row">
+          <button class="chip" data-preset="Roma tomatoes, garlic cloves, extra-virgin olive oil, fresh basil, parmigiano-reggiano">Italian Tomato Basil</button>
+          <button class="chip" data-preset="ground turmeric, ground cumin, coriander seeds, fresh ginger, garlic, onion, tomato, green chilies, salt">Indian Spiced Curry</button>
+          <button class="chip" data-preset="fish sauce, fresh lime juice, coconut milk, brown sugar, green chilies, garlic, ginger, cilantro">Thai Balance Base</button>
+          <button class="chip" data-preset="granulated sugar, brown sugar, unsalted butter, all-purpose flour, cocoa powder, vanilla, milk, salt">Chocolate Bakery</button>
+          <button class="chip" data-preset="soy sauce, miso paste, shiitake mushroom, green onions, ginger, rice vinegar, sesame oil">Japanese Umami Broth</button>
+        </div>
+        <textarea id="ingredientsInput" rows="3" placeholder="e.g., Roma tomatoes, garlic cloves, extra-virgin olive oil, fresh basil">Roma tomatoes, garlic cloves, extra-virgin olive oil, fresh basil</textarea>
+        <div class="actions-row">
+          <button id="analyzeBtn" class="btn-primary">Analyze Taste Profile</button>
+          <span class="disclaimer-inline">Unweighted ingredient-presence proxy (gram weights unavailable).</span>
+        </div>
+      </div>
+
+      <div id="analyzeError" class="alert-error hidden"></div>
+
+      <div id="analyzeResults" class="results-grid hidden">
+        <div class="card">
+          <h3>5D Modeled Taste Simplex (Deliverable 2)</h3>
+          <div class="radar-wrap" id="radarContainer"></div>
+          <div class="metrics-row" id="lexiconMetrics"></div>
+        </div>
+
+        <div class="card">
+          <h3>Supervised Proxy Predictions (Deliverable 4)</h3>
+          <p class="hint">
+            <strong>Setting 1</strong> recovers the algebraic proxy rule from all ingredients.
+            <strong>Setting 2</strong> masks 43+ direct taste anchors to infer taste from companion co-occurrence.
+          </p>
+          <div id="mlComparisonCards" class="ml-cards"></div>
+        </div>
+
+        <div class="card span-full">
+          <h3>Ingredient-Level Audit (Normalization, Chemesthesis &amp; FlavorDB)</h3>
+          <div class="table-scroll">
+            <table id="ingredientAuditTable">
+              <thead>
+                <tr>
+                  <th>Raw Input</th>
+                  <th>Canonical Form</th>
+                  <th>Status</th>
+                  <th>Anchor?</th>
+                  <th>Chemesthesis</th>
+                  <th>FlavorDB ID</th>
+                  <th>Verified Volatiles / Tastants</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: CROSS-CUISINE -->
+    <section id="tab-cuisines" class="tab-panel">
+      <div class="card">
+        <h2>Cross-Cuisine Statistical Comparison (20 Cuisines)</h2>
+        <p class="hint">
+          Exploratory observational comparison of normalized taste shares across world cuisines.
+          Univariate Kruskal–Wallis tests with Holm–Bonferroni correction are paired with joint Aitchison CLR PERMANOVA.
+        </p>
+        <div class="compare-controls">
+          <label>Cuisine A: <select id="cuisineSelectA"></select></label>
+          <label>Cuisine B: <select id="cuisineSelectB"></select></label>
+        </div>
+        <div id="cuisineCompareChart" class="compare-chart"></div>
+      </div>
+
+      <div class="card">
+        <h3>Per-Cuisine Descriptive Statistics</h3>
+        <div class="table-scroll">
+          <table id="cuisineTable">
+            <thead>
+              <tr>
+                <th>Cuisine</th>
+                <th>N Recipes</th>
+                <th>Sweet</th>
+                <th>Sour</th>
+                <th>Bitter</th>
+                <th>Salty</th>
+                <th>Umami</th>
+                <th>Distinctive (Z-Lift)</th>
+                <th>Evenness (J)</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Generated Empirical Figures</h3>
+        <div class="gallery-grid">
+          <figure>
+            <img src="/results/cuisine_taste_heatmap.png" alt="Cross-Cuisine Mean Taste Heatmap" loading="lazy" />
+            <figcaption>Cross-cuisine mean modeled taste shares across 20 cuisines.</figcaption>
+          </figure>
+          <figure>
+            <img src="/results/cuisine_pca_projection.png" alt="Standardized Cuisine PCA Biplot" loading="lazy" />
+            <figcaption>Exploratory PCA biplot of standardized cuisine centroids (ignores within-cuisine variance).</figcaption>
+          </figure>
+          <figure>
+            <img src="/results/confusion_matrix.png" alt="Confusion Matrices" loading="lazy" />
+            <figcaption>Held-out test confusion matrices: Setting 1 (Full) vs Setting 2 (Masked Anchors).</figcaption>
+          </figure>
+          <figure>
+            <img src="/results/feature_importance.png" alt="Feature Importances" loading="lazy" />
+            <figcaption>Top Random Forest MDI features (interpret cautiously under collinearity).</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: SIMILARITY RETRIEVAL -->
+    <section id="tab-similar" class="tab-panel">
+      <div class="card">
+        <h2>Unsupervised Taste-Simplex Recipe Retrieval</h2>
+        <p class="hint">
+          Retrieves recipes with the highest cosine similarity in 5D normalized taste-share space.
+          Query identity is strictly excluded. Proximity in proxy taste space does not imply identical plated sensory flavor.
+        </p>
+        <div class="actions-row">
+          <label>Recipe ID: <input type="number" id="recipeIdInput" value="10259" /></label>
+          <label>Top-K: <input type="number" id="topKInput" value="5" min="1" max="15" /></label>
+          <button id="similarBtn" class="btn-primary">Find Similar Recipes</button>
+        </div>
+        <div id="sampleRecipeChips" class="preset-row" style="margin-top:0.75rem;"></div>
+      </div>
+      <div id="similarError" class="alert-error hidden"></div>
+      <div id="similarResults" class="hidden"></div>
+    </section>
+
+    <!-- TAB 4: LEXICON & DISCLOSURES -->
+    <section id="tab-lexicon" class="tab-panel">
+      <div class="card">
+        <h2>Verified Taste Proxy Lexicon</h2>
+        <p class="hint">
+          All FlavorDB entity IDs and volatile aroma molecules are verified directly against FlavorDB (Garg et al., 2018).
+          Refined neutral lipids and unestablished minor dimensions are marked <code>null</code> (unknown) rather than fabricated.
+        </p>
+        <div class="actions-row">
+          <input type="text" id="lexiconSearch" placeholder="Filter by ingredient, category, or compound..." />
+          <select id="lexiconStatusFilter">
+            <option value="">All Annotation Statuses</option>
+            <option value="reference_standard">Reference Standard</option>
+            <option value="curated_proxy">Curated Proxy</option>
+            <option value="taste_unknown">Taste Unknown (NaN)</option>
+          </select>
+        </div>
+        <div class="table-scroll" style="margin-top:0.75rem;">
+          <table id="lexiconTable">
+            <thead>
+              <tr>
+                <th>Ingredient</th>
+                <th>Status</th>
+                <th>Confidence</th>
+                <th>Sweet</th>
+                <th>Sour</th>
+                <th>Bitter</th>
+                <th>Salty</th>
+                <th>Umami</th>
+                <th>Chemesthesis</th>
+                <th>FlavorDB ID</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Scientific Scope &amp; Limitations</h3>
+        <ul class="limitations-list">
+          <li><strong>Proxy vs. Wet-Lab Sensory Data:</strong> Basic taste vectors are reference-calibrated curated proxies, not electronic tongue or human sensory panel measurements. Human-perceived recipe taste remains unvalidated without sensory panel ground truth.</li>
+          <li><strong>Ingredient Presence vs. Quantity:</strong> Public recipe corpora lack gram weights; unweighted averages equate trace spices with bulk staples.</li>
+          <li><strong>Evenness vs. Culinary Balance:</strong> Shannon evenness <em>J</em> quantifies uniformity of the 5 modeled taste shares, not hedonic palatability.</li>
+          <li><strong>Chemesthesis &amp; Aroma Separation:</strong> Capsaicin heat, piperine, gingerol, and volatile FlavorDB odors are explicitly separated from the 5 basic lingual taste modalities.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Computational Gastronomy Research Framework (v1.1.0) · OpenAPI Docs: <a href="/docs">/docs</a> · Health: <a href="/api/health">/api/health</a>
+    </div>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

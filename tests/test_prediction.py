@@ -1,11 +1,13 @@
-"""Unit tests for Deliverable 4 ML pipeline, data leakage prevention, inference, and retrieval."""
+"""Unit tests for Deliverable 4 ML leakage prevention, anchor masking, persistence, inference, and retrieval."""
+import joblib
 import numpy as np
 import pandas as pd
 import pytest
 
-from src.config import DATA_PROCESSED_DIR, MODELS_DIR
+from src.config import DEFAULT_ALIASES_PATH, DEFAULT_LEXICON_PATH, TASTE_DIMENSIONS
+from src.data_preprocessing import load_aliases
 from src.taste_prediction import (
-    DIRECT_TASTE_ANCHORS,
+    build_anchor_set,
     mask_ingredient_string,
     predict_recipe_taste,
     retrieve_similar_recipes,
@@ -21,97 +23,108 @@ def test_tokenize_ingredients():
     assert tokenize_ingredients(None) == []
 
 
-def test_mask_ingredient_string():
-    raw_str = "garlic;salt;tomato;sugar;olive oil"
-    masked = mask_ingredient_string(raw_str, DIRECT_TASTE_ANCHORS)
-    remaining = masked.split(";")
+def test_anchor_masking_prevents_alias_bypass():
+    anchors = build_anchor_set(DEFAULT_LEXICON_PATH)
+    aliases = load_aliases(DEFAULT_ALIASES_PATH)
+    raw_str = "garlic;salt;confectioners sugar;dark chocolate;coarse sea salt;olive oil;tomato"
+    masked = mask_ingredient_string(raw_str, anchors, aliases=aliases)
+    remaining = tokenize_ingredients(masked)
     assert "salt" not in remaining
-    assert "sugar" not in remaining
+    assert "confectioners sugar" not in remaining
+    assert "dark chocolate" not in remaining
+    assert "coarse sea salt" not in remaining
     assert "garlic" in remaining
-    assert "tomato" in remaining
     assert "olive oil" in remaining
+    assert "tomato" in remaining
 
 
 def test_data_leakage_prevention_in_vectorizer():
-    # Verify that tokens appearing exclusively in test_corpus are NOT present in fitted vocabulary
-    train_corpus = ["garlic;onion;olive oil", "tomato;basil;garlic"]
+    train_corpus = ["garlic;onion;olive oil", "tomato;basil;garlic", "sugar;butter;milk", "apple;cinnamon;butter"]
     test_corpus = ["garlic;novel_secret_ingredient;tomato"]
-
-    y_train = np.array(["umami", "sour"])
+    y_train = np.array(["umami", "umami", "sweet", "sweet"])
     y_test = np.array(["umami"])
 
-    results, pipelines, preds = train_and_evaluate_models(
+    _, pipelines, _ = train_and_evaluate_models(
         train_corpus=train_corpus,
         test_corpus=test_corpus,
         y_train=y_train,
         y_test=y_test,
         setting_label="Leakage_Test",
     )
-
-    vec = pipelines["LogisticRegression (L2, Balanced)"].named_steps["vectorizer"]
-    vocab = vec.vocabulary_
-
-    # novel_secret_ingredient was only in test, so it MUST NOT be in the vocabulary
-    assert "novel_secret_ingredient" not in vocab, "Leakage detected: test token found in vectorizer vocabulary"
+    vocab = pipelines["LogisticRegression (L2, Balanced)"].named_steps["vectorizer"].vocabulary_
+    assert "novel_secret_ingredient" not in vocab
     assert "garlic" in vocab
 
 
-def test_model_persistence_and_inference():
-    # Verify that the serialized model artifact can be loaded and produces valid inference
-    model_path = MODELS_DIR / "taste_model.joblib"
-    if not model_path.exists():
-        pytest.skip("taste_model.joblib not yet trained")
+def test_model_persistence_and_inference_edges(tmp_path):
+    train_corpus = [
+        "garlic;onion;tomato;olive oil",
+        "tomato;basil;garlic;mushroom",
+        "sugar;butter;wheat flour;vanilla",
+        "brown sugar;cinnamon;apple;butter",
+        "lemon juice;vinegar;tomato;garlic",
+        "lime juice;cilantro;vinegar;onion",
+    ]
+    y_train = np.array(["umami", "umami", "sweet", "sweet", "sour", "sour"])
+    _, pipelines, _ = train_and_evaluate_models(
+        train_corpus=train_corpus,
+        test_corpus=train_corpus[:2],
+        y_train=y_train,
+        y_test=y_train[:2],
+        setting_label="Unit_Bundle",
+    )
+    bundle_path = tmp_path / "model.joblib"
+    joblib.dump(
+        {
+            "pipeline": pipelines["LogisticRegression (L2, Balanced)"],
+            "masked_pipeline": pipelines["LogisticRegression (L2, Balanced)"],
+            "evaluation_setting": "Setting 1: Full_Ingredients",
+            "is_synthetic": True,
+        },
+        bundle_path,
+    )
 
-    test_ingredients = ["tomatoes", "garlic cloves", "fresh basil", "olive oil"]
-    result = predict_recipe_taste(test_ingredients, model_path=model_path)
+    res = predict_recipe_taste(["Roma tomatoes", "garlic cloves", "fresh basil", "olive oil"], model_path=bundle_path)
+    assert res["status"] == "success"
+    assert res["predicted_dominant_taste"] in TASTE_DIMENSIONS
+    assert np.isclose(sum(res["probabilities"].values()), 1.0, atol=1e-3)
+    assert "tomato" in res["known_ingredients"]
 
-    assert result["status"] == "success"
-    assert result["predicted_dominant_taste"] in ["sweet", "sour", "bitter", "salty", "umami"]
-    assert "probabilities" in result
-    assert isinstance(result["probabilities"], dict)
-    prob_sum = sum(result["probabilities"].values())
-    assert np.isclose(prob_sum, 1.0, atol=1e-3)
-
-
-def test_inference_empty_and_unknown_inputs():
-    model_path = MODELS_DIR / "taste_model.joblib"
-    if not model_path.exists():
-        pytest.skip("taste_model.joblib not yet trained")
-
-    # Empty input
-    empty_res = predict_recipe_taste([])
+    empty_res = predict_recipe_taste([], model_path=bundle_path)
     assert empty_res["status"] == "empty_input"
     assert empty_res["predicted_dominant_taste"] == "unspecified"
 
-    # Completely unknown ingredients
-    unknown_res = predict_recipe_taste(["fictional_alien_ingredient_xyz_123"])
-    assert unknown_res["status"] == "success"
+    oov_res = predict_recipe_taste(["fictional_alien_ingredient_xyz_123"], model_path=bundle_path)
+    assert oov_res["status"] == "no_known_ingredients"
+    assert oov_res["predicted_dominant_taste"] == "unspecified"
+    assert oov_res["known_ingredients"] == []
 
 
-def test_similarity_retrieval_excludes_self():
-    csv_path = DATA_PROCESSED_DIR / "recipe_taste_features.csv"
-    if not csv_path.exists():
-        pytest.skip("recipe_taste_features.csv not yet generated")
-
-    df = pd.read_csv(csv_path)
-    sample_id = int(df.iloc[0]["recipe_id"])
-
-    neighbors = retrieve_similar_recipes(df, query_recipe_id=sample_id, top_k=3)
-    assert len(neighbors) == 3
-
-    # Invariant: Query recipe is NEVER returned as a neighbor of itself
-    assert sample_id not in neighbors["neighbor_recipe_id"].values
-
-    # Invariant: Cosine similarity is in [-1.0, 1.0]
+def test_similarity_retrieval_handles_non_contiguous_index_and_errors():
+    # Intentionally slice rows so DataFrame .index is [10, 25, 42, 99] (non-contiguous!)
+    df = pd.DataFrame(
+        {
+            "recipe_id": [101, 102, 103, 104],
+            "cuisine": ["italian", "mexican", "indian", "japanese"],
+            "dominant_taste": ["umami", "sour", "bitter", "umami"],
+            "taste_evenness": [0.85, 0.88, 0.82, 0.86],
+            "sweet": [0.1, 0.2, 0.1, 0.15],
+            "sour": [0.2, 0.5, 0.1, 0.1],
+            "bitter": [0.1, 0.1, 0.6, 0.1],
+            "salty": [0.2, 0.1, 0.1, 0.25],
+            "umami": [0.4, 0.1, 0.1, 0.4],
+        },
+        index=[10, 25, 42, 99],
+    )
+    neighbors = retrieve_similar_recipes(df, query_recipe_id=101, top_k=2)
+    assert len(neighbors) == 2
+    assert 101 not in neighbors["neighbor_recipe_id"].values
     assert (neighbors["cosine_similarity"] >= -1.0).all()
     assert (neighbors["cosine_similarity"] <= 1.0).all()
 
-
-def test_similarity_retrieval_invalid_id():
-    csv_path = DATA_PROCESSED_DIR / "recipe_taste_features.csv"
-    if not csv_path.exists():
-        pytest.skip("recipe_taste_features.csv not yet generated")
-
-    df = pd.read_csv(csv_path)
     with pytest.raises(ValueError):
-        retrieve_similar_recipes(df, query_recipe_id=-999999, top_k=3)
+        retrieve_similar_recipes(df, query_recipe_id=-999, top_k=2)
+    with pytest.raises(ValueError):
+        retrieve_similar_recipes(df, query_recipe_id=101, top_k=0)
+    with pytest.raises(ValueError):
+        retrieve_similar_recipes(df.iloc[[0]], query_recipe_id=101, top_k=1)

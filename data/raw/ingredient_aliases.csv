@@ -1,0 +1,381 @@
+surface_form,canonical,note
+allspice,allspice,identity
+ground allspice,allspice,surface_variant
+almonds,almonds,identity
+sliced almonds,almonds,surface_variant
+anchovies,anchovy,surface_variant
+anchovy,anchovy,identity
+anchovy fillets,anchovy,surface_variant
+apple,apple,identity
+apples,apple,surface_variant
+avocado,avocado,identity
+avocados,avocado,surface_variant
+bacon,bacon,identity
+baking powder,baking powder,identity
+baking soda,baking soda,identity
+bicarbonate of soda,baking soda,surface_variant
+balsamic vinegar,balsamic vinegar,identity
+basil,basil,identity
+dried basil,basil,surface_variant
+fresh basil,basil,surface_variant
+fresh basil leaves,basil,surface_variant
+sweet basil,basil,surface_variant
+bay leaf,bay leaf,identity
+bay leaves,bay leaf,surface_variant
+dried bay leaf,bay leaf,surface_variant
+beef,beef,identity
+ground beef,beef,surface_variant
+lean ground beef,beef,surface_variant
+beef broth,beef broth,identity
+beef stock,beef broth,surface_variant
+bell pepper,bell pepper,identity
+green bell pepper,bell pepper,surface_variant
+green pepper,bell pepper,surface_variant
+green peppers,bell pepper,surface_variant
+red bell pepper,bell pepper,surface_variant
+sweet pepper,bell pepper,surface_variant
+yellow bell pepper,bell pepper,surface_variant
+black beans,black beans,identity
+canned black beans,black beans,surface_variant
+black garlic,black garlic,identity
+black pepper,black pepper,identity
+black pepper powder,black pepper,surface_variant
+black peppercorns,black pepper,surface_variant
+coarse black pepper,black pepper,surface_variant
+cracked black pepper,black pepper,surface_variant
+freshly ground black pepper,black pepper,surface_variant
+freshly ground pepper,black pepper,surface_variant
+ground black pepper,black pepper,surface_variant
+ground pepper,black pepper,surface_variant
+brown sugar,brown sugar,identity
+dark brown sugar,brown sugar,surface_variant
+light brown sugar,brown sugar,surface_variant
+butter,butter,identity
+unsalted butter,butter,surface_variant
+buttermilk,buttermilk,identity
+cabbage,cabbage,identity
+green cabbage,cabbage,surface_variant
+capers,capers,identity
+carrot,carrot,identity
+carrots,carrot,surface_variant
+cayenne,cayenne pepper,surface_variant
+cayenne pepper,cayenne pepper,identity
+crushed red pepper,cayenne pepper,surface_variant
+crushed red pepper flakes,cayenne pepper,surface_variant
+ground cayenne pepper,cayenne pepper,surface_variant
+ground red pepper,cayenne pepper,surface_variant
+red chili powder,cayenne pepper,surface_variant
+red pepper flakes,cayenne pepper,surface_variant
+celery,celery,identity
+celery ribs,celery,surface_variant
+celery stalks,celery,surface_variant
+cheddar cheese,cheddar cheese,identity
+sharp cheddar cheese,cheddar cheese,surface_variant
+shredded cheddar cheese,cheddar cheese,surface_variant
+boneless skinless chicken breast,chicken,surface_variant
+boneless skinless chicken breast halves,chicken,surface_variant
+boneless skinless chicken breasts,chicken,surface_variant
+chicken,chicken,identity
+chicken breast halves,chicken,surface_variant
+chicken breasts,chicken,surface_variant
+chicken thighs,chicken,surface_variant
+chicken broth,chicken broth,identity
+chicken stock,chicken broth,surface_variant
+fat free less sodium chicken broth,chicken broth,surface_variant
+low salt chicken broth,chicken broth,surface_variant
+low sodium chicken broth,chicken broth,surface_variant
+reduced sodium chicken broth,chicken broth,surface_variant
+chickpeas,chickpeas,identity
+garbanzo beans,chickpeas,surface_variant
+chili powder,chili powder,identity
+chive,chives,surface_variant
+chives,chives,identity
+fresh chives,chives,surface_variant
+chopped cilantro fresh,cilantro,surface_variant
+cilantro,cilantro,identity
+cilantro leaves,cilantro,surface_variant
+coriander leaves,cilantro,surface_variant
+fresh cilantro,cilantro,surface_variant
+fresh cilantro leaves,cilantro,surface_variant
+cinnamon,cinnamon,identity
+cinnamon stick,cinnamon,surface_variant
+cinnamon sticks,cinnamon,surface_variant
+ground cinnamon,cinnamon,surface_variant
+clove,clove,identity
+cloves,clove,surface_variant
+ground cloves,clove,surface_variant
+whole cloves,clove,surface_variant
+cocoa powder,cocoa powder,identity
+unsweetened cocoa powder,cocoa powder,surface_variant
+coconut milk,coconut milk,identity
+brewed coffee,coffee,surface_variant
+coffee,coffee,identity
+espresso,coffee,surface_variant
+canola oil,cooking oil,surface_variant
+cooking oil,cooking oil,identity
+cooking spray,cooking oil,surface_variant
+corn oil,cooking oil,surface_variant
+oil,cooking oil,surface_variant
+sunflower oil,cooking oil,surface_variant
+vegetable oil,cooking oil,surface_variant
+coriander,coriander seed,surface_variant
+coriander seed,coriander seed,identity
+coriander seeds,coriander seed,surface_variant
+ground coriander,coriander seed,surface_variant
+corn,corn,identity
+corn kernels,corn,surface_variant
+corn starch,cornstarch,surface_variant
+cornstarch,cornstarch,identity
+cream cheese,cream cheese,identity
+cucumber,cucumber,identity
+cucumbers,cucumber,surface_variant
+english cucumber,cucumber,surface_variant
+cumin,cumin,identity
+cumin seed,cumin,surface_variant
+cumin seeds,cumin,surface_variant
+ground cumin,cumin,surface_variant
+dill,dill,identity
+fresh dill,dill,surface_variant
+dried ginger,dried ginger,identity
+ginger powder,dried ginger,surface_variant
+ground ginger,dried ginger,surface_variant
+egg,egg,identity
+egg white,egg,surface_variant
+egg whites,egg,surface_variant
+egg yolk,egg,surface_variant
+egg yolks,egg,surface_variant
+eggs,egg,surface_variant
+large egg,egg,surface_variant
+large eggs,egg,surface_variant
+eggplant,eggplant,identity
+fenugreek,fenugreek,identity
+fenugreek seeds,fenugreek,surface_variant
+crumbled feta cheese,feta cheese,surface_variant
+feta cheese,feta cheese,identity
+feta cheese crumbles,feta cheese,surface_variant
+fish sauce,fish sauce,identity
+chopped garlic,garlic,surface_variant
+crushed garlic,garlic,surface_variant
+fresh garlic,garlic,surface_variant
+garlic,garlic,identity
+garlic clove,garlic,surface_variant
+garlic cloves,garlic,surface_variant
+minced garlic,garlic,surface_variant
+garlic powder,garlic powder,identity
+granulated garlic,garlic powder,surface_variant
+fresh ginger,ginger,surface_variant
+fresh ginger root,ginger,surface_variant
+ginger,ginger,identity
+ginger root,ginger,surface_variant
+gingerroot,ginger,surface_variant
+grated ginger,ginger,surface_variant
+minced ginger,ginger,surface_variant
+green chile,green chili,surface_variant
+green chiles,green chili,surface_variant
+green chili,green chili,identity
+green chilies,green chili,surface_variant
+green onion,green onion,identity
+green onions,green onion,surface_variant
+scallion,green onion,surface_variant
+scallions,green onion,surface_variant
+spring onion,green onion,surface_variant
+spring onions,green onion,surface_variant
+heavy cream,heavy cream,identity
+heavy whipping cream,heavy cream,surface_variant
+whipping cream,heavy cream,surface_variant
+honey,honey,identity
+raw honey,honey,surface_variant
+jalapeno,jalapeno,identity
+jalapeno chilies,jalapeno,surface_variant
+jalapeno pepper,jalapeno,surface_variant
+jalapeno peppers,jalapeno,surface_variant
+jalapenos,jalapeno,surface_variant
+kale,kale,identity
+lemon,lemon,identity
+lemons,lemon,surface_variant
+fresh lemon juice,lemon juice,surface_variant
+juice of a lemon,lemon juice,surface_variant
+lemon juice,lemon juice,identity
+lime,lime,identity
+limes,lime,surface_variant
+fresh lime juice,lime juice,surface_variant
+juice of a lime,lime juice,surface_variant
+lime juice,lime juice,identity
+mango,mango,identity
+mangoes,mango,surface_variant
+maple syrup,maple syrup,identity
+pure maple syrup,maple syrup,surface_variant
+mayo,mayonnaise,surface_variant
+mayonaise,mayonnaise,surface_variant
+mayonnaise,mayonnaise,identity
+milk,milk,identity
+whole milk,milk,surface_variant
+fresh mint,mint,surface_variant
+fresh mint leaves,mint,surface_variant
+mint,mint,identity
+mirin,mirin,identity
+miso,miso paste,surface_variant
+miso paste,miso paste,identity
+white miso,miso paste,surface_variant
+fresh mozzarella,mozzarella cheese,surface_variant
+mozzarella cheese,mozzarella cheese,identity
+shredded mozzarella cheese,mozzarella cheese,surface_variant
+button mushrooms,mushroom,surface_variant
+cremini mushrooms,mushroom,surface_variant
+mushroom,mushroom,identity
+mushrooms,mushroom,surface_variant
+dijon mustard,mustard,surface_variant
+mustard,mustard,identity
+yellow mustard,mustard,surface_variant
+ground nutmeg,nutmeg,surface_variant
+nutmeg,nutmeg,identity
+extra virgin olive oil,olive oil,surface_variant
+olive oil,olive oil,identity
+black olives,olives,surface_variant
+green olives,olives,surface_variant
+kalamata olives,olives,surface_variant
+olives,olives,identity
+chopped onions,onion,surface_variant
+diced onions,onion,surface_variant
+onion,onion,identity
+onions,onion,surface_variant
+sliced onions,onion,surface_variant
+sweet onion,onion,surface_variant
+sweet onions,onion,surface_variant
+white onion,onion,surface_variant
+white onions,onion,surface_variant
+yellow onion,onion,surface_variant
+yellow onions,onion,surface_variant
+onion powder,onion powder,identity
+fresh orange juice,orange juice,surface_variant
+orange juice,orange juice,identity
+dried oregano,oregano,surface_variant
+fresh oregano,oregano,surface_variant
+oregano,oregano,identity
+oyster sauce,oyster sauce,identity
+hungarian paprika,paprika,surface_variant
+paprika,paprika,identity
+sweet paprika,paprika,surface_variant
+grated parmesan cheese,parmesan cheese,surface_variant
+parmesan,parmesan cheese,surface_variant
+parmesan cheese,parmesan cheese,identity
+parmigiano reggiano,parmesan cheese,surface_variant
+parmigiano reggiano cheese,parmesan cheese,surface_variant
+chopped fresh parsley,parsley,surface_variant
+flat leaf parsley,parsley,surface_variant
+fresh parsley,parsley,surface_variant
+parsley,parsley,identity
+peanut oil,peanut oil,identity
+peanuts,peanuts,identity
+roasted peanuts,peanuts,surface_variant
+ground pork,pork,surface_variant
+pork,pork,identity
+pork chops,pork,surface_variant
+potato,potato,identity
+potatoes,potato,surface_variant
+russet potatoes,potato,surface_variant
+confectioners sugar,powdered sugar,surface_variant
+icing sugar,powdered sugar,surface_variant
+powdered sugar,powdered sugar,identity
+purple onion,red onion,surface_variant
+purple onions,red onion,surface_variant
+red onion,red onion,identity
+red onions,red onion,surface_variant
+dry red wine,red wine,surface_variant
+red wine,red wine,identity
+red wine vinegar,red wine vinegar,identity
+basmati rice,rice,surface_variant
+jasmine rice,rice,surface_variant
+long grain rice,rice,surface_variant
+rice,rice,identity
+white rice,rice,surface_variant
+rice vinegar,rice vinegar,identity
+rice wine vinegar,rice vinegar,surface_variant
+seasoned rice vinegar,rice vinegar,surface_variant
+dried rosemary,rosemary,surface_variant
+fresh rosemary,rosemary,surface_variant
+rosemary,rosemary,identity
+sake,sake,identity
+coarse salt,salt,surface_variant
+fine sea salt,salt,surface_variant
+kosher salt,salt,surface_variant
+salt,salt,identity
+sea salt,salt,surface_variant
+table salt,salt,surface_variant
+salted butter,salted butter,identity
+sesame oil,sesame oil,identity
+toasted sesame oil,sesame oil,surface_variant
+sesame seeds,sesame seeds,identity
+toasted sesame seeds,sesame seeds,surface_variant
+french shallots,shallot,surface_variant
+shallot,shallot,identity
+shallots,shallot,surface_variant
+dried shiitake mushrooms,shiitake mushroom,surface_variant
+shiitake mushroom,shiitake mushroom,identity
+shiitake mushrooms,shiitake mushroom,surface_variant
+prawns,shrimp,surface_variant
+shrimp,shrimp,identity
+sour cream,sour cream,identity
+dark soy sauce,soy sauce,surface_variant
+light soy sauce,soy sauce,surface_variant
+low sodium soy sauce,soy sauce,surface_variant
+soy sauce,soy sauce,identity
+baby spinach,spinach,surface_variant
+fresh spinach,spinach,surface_variant
+spinach,spinach,identity
+cane sugar,sugar,surface_variant
+granulated sugar,sugar,surface_variant
+sugar,sugar,identity
+white sugar,sugar,surface_variant
+sweet potato,sweet potato,identity
+sweet potatoes,sweet potato,surface_variant
+tamarind,tamarind,identity
+tamarind paste,tamarind,surface_variant
+tamarind pulp,tamarind,surface_variant
+dried thyme,thyme,surface_variant
+fresh thyme,thyme,surface_variant
+thyme,thyme,identity
+firm tofu,tofu,surface_variant
+tofu,tofu,identity
+canned tomatoes,tomato,surface_variant
+cherry tomatoes,tomato,surface_variant
+crushed tomatoes,tomato,surface_variant
+diced tomatoes,tomato,surface_variant
+fresh tomatoes,tomato,surface_variant
+grape tomatoes,tomato,surface_variant
+plum tomatoes,tomato,surface_variant
+roma tomatoes,tomato,surface_variant
+tomato,tomato,identity
+tomatoes,tomato,surface_variant
+tomato paste,tomato paste,identity
+ground tumeric,turmeric,surface_variant
+ground turmeric,turmeric,surface_variant
+tumeric,turmeric,surface_variant
+turmeric,turmeric,identity
+turmeric powder,turmeric,surface_variant
+pure vanilla extract,vanilla,surface_variant
+vanilla,vanilla,identity
+vanilla bean,vanilla,surface_variant
+vanilla extract,vanilla,surface_variant
+apple cider vinegar,vinegar,surface_variant
+cider vinegar,vinegar,surface_variant
+distilled white vinegar,vinegar,surface_variant
+vinegar,vinegar,identity
+white vinegar,vinegar,surface_variant
+boiling water,water,surface_variant
+cold water,water,surface_variant
+hot water,water,surface_variant
+warm water,water,surface_variant
+water,water,identity
+all purpose flour,wheat flour,surface_variant
+flour,wheat flour,surface_variant
+plain flour,wheat flour,surface_variant
+unbleached flour,wheat flour,surface_variant
+wheat flour,wheat flour,identity
+dry white wine,white wine,surface_variant
+white wine,white wine,identity
+worcestershire sauce,worcestershire sauce,identity
+greek yogurt,yogurt,surface_variant
+plain yogurt,yogurt,surface_variant
+yogurt,yogurt,identity
+zucchini,zucchini,identity

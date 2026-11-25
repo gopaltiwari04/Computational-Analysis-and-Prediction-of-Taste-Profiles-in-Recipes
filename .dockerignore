@@ -1,0 +1,12 @@
+.venv/
+.git/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+data/raw/train.json
+data/processed/recipe_ingredients.csv
+docs/
+reports/
+tests/
