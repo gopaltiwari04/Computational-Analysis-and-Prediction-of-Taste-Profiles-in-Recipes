@@ -97,9 +97,9 @@ def test_webapp_cuisines_lexicon_and_similarity(web_env):
 
 
 def test_vercel_entrypoint_has_no_heavy_ml_imports():
-    """Verify api.index imports zero heavy scientific packages (numpy/pandas/scipy/sklearn/matplotlib)."""
+    """Verify app.main and api.index import zero heavy scientific packages."""
     code = (
-        "import sys; import api.index; "
+        "import sys; import app.main; import api.index; "
         "heavy = [m for m in ('numpy','pandas','scipy','sklearn','matplotlib','seaborn','joblib') if m in sys.modules]; "
         "assert not heavy, f'Heavy modules loaded by Vercel entrypoint: {heavy}'"
     )

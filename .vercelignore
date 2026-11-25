@@ -1,5 +1,7 @@
 # Ignore full ML/pipeline requirements on Vercel so pyproject.toml installs only lean FastAPI runtime
 requirements.txt
+# Use app/main.py via [tool.vercel].entrypoint to avoid duplicate/ambiguous api/index.py routing on Vercel
+api/
 
 .venv/
 .git/

@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from fastapi import FastAPI, HTTPException, Query
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -151,11 +151,16 @@ def create_app(ctx: Optional[RunContext] = None) -> FastAPI:
         }
 
     @app.get("/", include_in_schema=False)
+    @app.get("/index.html", include_in_schema=False)
     def serve_index() -> FileResponse:
         index_path = STATIC_DIR / "index.html"
         if not index_path.exists():
             raise HTTPException(status_code=404, detail="Frontend index.html not found.")
         return FileResponse(str(index_path))
+
+    @app.get("/favicon.ico", include_in_schema=False)
+    def serve_favicon() -> Response:
+        return Response(status_code=204)
 
     @app.get("/api/health")
     def health() -> Dict[str, Any]:

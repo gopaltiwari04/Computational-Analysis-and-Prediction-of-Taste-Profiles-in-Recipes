@@ -173,10 +173,10 @@ python run_pipeline.py --top-k-similar 10259 --k 3
 ## 7. Deployable Web Application (Vercel, Docker, Local)
 
 ### Deploy to Vercel
-This repository includes a dedicated pure-Python serverless entrypoint ([`api/index.py`](api/index.py)), [`vercel.json`](vercel.json), and [`.vercelignore`](.vercelignore):
-- `.vercelignore` excludes `requirements.txt`, large training/intermediate CSVs, tests, and raw corpora so Vercel installs only the lightweight runtime specified in [`pyproject.toml`](pyproject.toml) (`fastapi`, `uvicorn`).
+This repository configures Vercel's native FastAPI runtime via `[tool.vercel]` (`entrypoint = "app.main:app"`) in [`pyproject.toml`](pyproject.toml), [`vercel.json`](vercel.json), and [`.vercelignore`](.vercelignore):
+- `.vercelignore` excludes `requirements.txt`, `api/`, large training/intermediate CSVs, tests, and raw corpora so Vercel installs only the lightweight runtime specified in [`pyproject.toml`](pyproject.toml) (`fastapi`, `uvicorn`) without `api/index.py` route conflicts.
 - [`app/engine.py`](app/engine.py) executes normalization, 5D simplex math, cosine retrieval, and logistic regression softmax inference using exported JSON weights ([`models/taste_model_weights.json`](models/taste_model_weights.json)) with zero `scipy`, `scikit-learn`, `pandas`, or `matplotlib` dependencies at serverless runtime.
-- **Deploy steps:** Import the GitHub repository in the Vercel dashboard (Framework Preset: **Other** / **FastAPI**; root directory `./`) and click **Deploy** (or run `vercel --prod`).
+- **Deploy steps:** Import the GitHub repository in the Vercel dashboard (Framework Preset: **FastAPI**; Root Directory: **`./`**; leave Build/Output/Install commands default) and click **Deploy** (or run `vercel --prod`).
 
 ### Run Locally or via Docker
 ```bash
