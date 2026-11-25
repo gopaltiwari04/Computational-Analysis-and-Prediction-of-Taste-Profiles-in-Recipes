@@ -1,6 +1,6 @@
 # Computational Analysis and Prediction of Taste Profiles in Recipes
 
-**Authors:** Undergraduate Computational Gastronomy Research Project  
+**Authors:** Gopal Krishna Tewari, Nitin Kumar  
 **Affiliation:** Department of Computer Science & Center for Computational Biology  
 **Date:** October 2026  
 **Repository:** [https://github.com/gopaltiwari04/Computational-Analysis-and-Prediction-of-Taste-Profiles-in-Recipes](https://github.com/gopaltiwari04/Computational-Analysis-and-Prediction-of-Taste-Profiles-in-Recipes)
